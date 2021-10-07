@@ -1,0 +1,1001 @@
+KyNangMem,NNLT,QuyMoCongTy,LinhVuc,KhuVuc,NgoaiNgu,KinhNghiem,Luong
+"QLTG,,",PB,TB,"Mobile,BackEnd,FrontEnd",KV2,DV,Senior,>1500
+",GT,TT",TB,TB,"Mobile,BackEnd,FrontEnd",KV1,KC,Junior,500-1000
+"TT,QLTG,GT",PB,NHO,Developer Option,KV1,DV,Internship,1000-1500
+"QLTG,QLTG,",TB,TB,"BackEnd,Mobile",KV3,TT,Junior,500-1000
+"GT,TT,LVN",TB,TB,"FrontEnd,Mobile",KV1,CB,Internship,500-1000
+"TT,TT,QLTG",TB,LON,Developer Option,KV1,DV,Fresher,1000-1500
+"LVN,GT,GT",KPB,TB,FrontEnd,KV2,KC,Fresher,500-1000
+"TT,TT,GT",TB,TB,"BackEnd,FrontEnd",KV2,CB,Internship,500-1000
+"LVN,LVN,",TB,TB,"FrontEnd,Mobile",KV3,KC,Senior,500-1000
+"LVN,QLTG,",TB,TB,Mobile,KV2,KC,Junior,500-1000
+",GT,TT",TB,NHO,"BackEnd,FrontEnd",KV1,KC,Fresher,500-1000
+"LVN,GT,",TB,TB,"Mobile,BackEnd,FrontEnd",KV1,TT,Fresher,500-1000
+"GT,,QLTG",PB,TB,Mobile,KV3,TT,Internship,1000-1500
+"LVN,QLTG,",PB,NHO,Mobile,KV3,DV,Senior,>1500
+"GT,GT,",PB,TB,Developer Option,KV1,KC,Internship,1000-1500
+"LVN,,LVN",KPB,NHO,"Mobile,BackEnd,FrontEnd",KV1,KC,Fresher,500-1000
+"LVN,LVN,QLTG",PB,TB,FrontEnd,KV3,TT,Internship,1000-1500
+"TT,GT,QLTG",PB,NHO,"FrontEnd,Mobile",KV3,TT,Senior,>1500
+"TT,QLTG,QLTG",TB,TB,Back-end,KV1,CB,Fresher,1000-1500
+"GT,TT,",PB,NHO,Tester,KV1,TT,Fresher,1000-1500
+",QLTG,QLTG",PB,TB,"BackEnd,Mobile",KV2,DV,Fresher,1000-1500
+"TT,LVN,QLTG",PB,NHO,FrontEnd,KV3,TT,Senior,>1500
+"LVN,TT,LVN",PB,NHO,FrontEnd,KV1,CB,Internship,1000-1500
+"LVN,QLTG,LVN",TB,TB,Developer Option,KV2,DV,Junior,1000-1500
+"LVN,TT,LVN",KPB,NHO,Developer Option,KV3,DV,Senior,1000-1500
+"TT,,QLTG",PB,NHO,"BackEnd,FrontEnd",KV1,TT,Fresher,1000-1500
+"TT,,TT",PB,TB,Mobile,KV3,DV,Senior,>1500
+"QLTG,,QLTG",PB,NHO,"BackEnd,FrontEnd",KV3,DV,Fresher,1000-1500
+"TT,LVN,LVN",PB,LON,Developer Option,KV2,DV,Internship,1000-1500
+"QLTG,LVN,QLTG",PB,TB,Mobile,KV3,DV,Internship,1000-1500
+"LVN,QLTG,",PB,NHO,Back-end,KV1,TT,Junior,>1500
+"QLTG,TT,TT",PB,NHO,FrontEnd,KV2,CB,Fresher,1000-1500
+"LVN,,",PB,NHO,"BackEnd,FrontEnd",KV2,DV,Junior,1000-1500
+"LVN,,",TB,NHO,Mobile,KV3,DV,Internship,500-1000
+"LVN,QLTG,GT",PB,TB,Tester,KV2,CB,Junior,1000-1500
+"TT,,",PB,TB,Tester,KV2,CB,Fresher,1000-1500
+"TT,TT,",PB,TB,"Mobile,BackEnd,FrontEnd",KV2,KC,Fresher,500-1000
+"LVN,GT,LVN",TB,NHO,FrontEnd,KV3,CB,Internship,500-1000
+",TT,",TB,NHO,Developer Option,KV1,CB,Junior,1000-1500
+"GT,QLTG,GT",PB,LON,"Mobile,BackEnd,FrontEnd",KV1,DV,Senior,>1500
+"LVN,QLTG,LVN",PB,TB,"BackEnd,Mobile",KV1,KC,Internship,1000-1500
+"TT,,",PB,TB,Tester,KV3,CB,Internship,500-1000
+"GT,QLTG,QLTG",TB,TB,Developer Option,KV3,TT,Fresher,500-1000
+"LVN,,QLTG",PB,LON,"BackEnd,FrontEnd",KV3,TT,Junior,>1500
+"TT,,GT",PB,NHO,FrontEnd,KV1,DV,Senior,>1500
+"GT,TT,QLTG",PB,LON,"Mobile,BackEnd,FrontEnd",KV1,CB,Senior,>1500
+"TT,GT,TT",PB,NHO,Developer Option,KV3,DV,Fresher,1000-1500
+"TT,QLTG,TT",PB,TB,"FrontEnd,Mobile",KV3,DV,Fresher,1000-1500
+"QLTG,,",PB,NHO,FrontEnd,KV2,CB,Internship,1000-1500
+"LVN,QLTG,LVN",KPB,NHO,"FrontEnd,Mobile",KV2,CB,Senior,1000-1500
+"LVN,LVN,LVN",PB,LON,FrontEnd,KV1,KC,Junior,1000-1500
+"QLTG,GT,LVN",TB,NHO,"Mobile,BackEnd,FrontEnd",KV3,TT,Fresher,500-1000
+"GT,,QLTG",TB,TB,Tester,KV1,KC,Internship,500-1000
+"QLTG,GT,GT",PB,NHO,"BackEnd,Mobile",KV3,DV,Internship,1000-1500
+",GT,QLTG",PB,NHO,Tester,KV2,CB,Junior,1000-1500
+"TT,LVN,GT",TB,NHO,"BackEnd,Mobile",KV3,CB,Junior,500-1000
+"TT,QLTG,TT",PB,TB,"FrontEnd,Mobile",KV3,DV,Junior,1000-1500
+"GT,,QLTG",PB,NHO,"Mobile,BackEnd,FrontEnd",KV3,DV,Fresher,1000-1500
+"QLTG,LVN,QLTG",KPB,TB,FrontEnd,KV1,CB,Internship,500-1000
+",LVN,",PB,NHO,"Mobile,BackEnd,FrontEnd",KV1,CB,Fresher,1000-1500
+"TT,GT,TT",PB,TB,Back-end,KV2,DV,Senior,>1500
+",LVN,LVN",PB,TB,"FrontEnd,Mobile",KV2,KC,Junior,1000-1500
+"LVN,QLTG,LVN",TB,NHO,Tester,KV2,DV,Senior,1000-1500
+"QLTG,QLTG,",PB,NHO,Mobile,KV1,KC,Senior,1000-1500
+",QLTG,GT",PB,NHO,"FrontEnd,Mobile",KV2,TT,Internship,1000-1500
+"TT,QLTG,TT",KPB,NHO,"FrontEnd,Mobile",KV1,TT,Junior,1000-1500
+"QLTG,QLTG,LVN",TB,NHO,Back-end,KV2,DV,Junior,1000-1500
+"TT,GT,TT",PB,TB,"Mobile,BackEnd,FrontEnd",KV3,DV,Junior,1000-1500
+"LVN,GT,QLTG",PB,NHO,"Mobile,BackEnd,FrontEnd",KV3,TT,Internship,1000-1500
+"GT,GT,LVN",PB,TB,"BackEnd,Mobile",KV1,KC,Fresher,1000-1500
+"QLTG,,TT",TB,NHO,"FrontEnd,Mobile",KV1,KC,Junior,500-1000
+"QLTG,GT,GT",PB,NHO,"BackEnd,Mobile",KV3,DV,Junior,1000-1500
+"LVN,LVN,QLTG",PB,NHO,Tester,KV3,KC,Senior,1000-1500
+"GT,LVN,TT",PB,TB,"Mobile,BackEnd,FrontEnd",KV2,KC,Junior,1000-1500
+"QLTG,,GT",PB,NHO,"BackEnd,Mobile",KV2,TT,Senior,>1500
+",QLTG,QLTG",TB,TB,"Mobile,BackEnd,FrontEnd",KV3,TT,Junior,500-1000
+"QLTG,LVN,LVN",PB,NHO,Developer Option,KV3,CB,Internship,1000-1500
+"QLTG,,",PB,NHO,Back-end,KV1,CB,Senior,>1500
+"GT,QLTG,",PB,TB,Tester,KV3,DV,Senior,>1500
+"LVN,,QLTG",TB,NHO,Developer Option,KV3,DV,Junior,500-1000
+"TT,GT,QLTG",TB,TB,"BackEnd,FrontEnd",KV1,CB,Fresher,500-1000
+",,QLTG",TB,TB,"BackEnd,Mobile",KV3,TT,Junior,500-1000
+"TT,QLTG,",KPB,NHO,Tester,KV3,TT,Senior,1000-1500
+"GT,,GT",TB,TB,FrontEnd,KV2,DV,Junior,500-1000
+",GT,LVN",TB,LON,Mobile,KV2,KC,Internship,500-1000
+"QLTG,LVN,",PB,NHO,"BackEnd,Mobile",KV1,KC,Senior,1000-1500
+"GT,QLTG,TT",TB,NHO,Developer Option,KV3,KC,Junior,500-1000
+"QLTG,GT,GT",TB,TB,Tester,KV1,CB,Junior,1000-1500
+"QLTG,GT,GT",TB,NHO,"Mobile,BackEnd,FrontEnd",KV2,CB,Junior,1000-1500
+"LVN,,LVN",PB,NHO,Tester,KV3,DV,Internship,500-1000
+",TT,TT",PB,LON,Tester,KV2,DV,Senior,>1500
+"GT,,LVN",TB,NHO,"FrontEnd,Mobile",KV2,CB,Internship,500-1000
+"TT,GT,QLTG",PB,NHO,"BackEnd,FrontEnd",KV1,TT,Senior,>1500
+"TT,LVN,GT",KPB,LON,Mobile,KV1,KC,Junior,1000-1500
+"GT,TT,QLTG",TB,NHO,"Mobile,BackEnd,FrontEnd",KV3,DV,Internship,500-1000
+"TT,LVN,TT",PB,TB,"BackEnd,FrontEnd",KV2,CB,Junior,1000-1500
+"LVN,TT,",PB,NHO,Tester,KV3,CB,Junior,1000-1500
+"QLTG,QLTG,LVN",PB,NHO,FrontEnd,KV3,DV,Internship,1000-1500
+"GT,,LVN",TB,TB,FrontEnd,KV3,KC,Internship,0-500
+"GT,GT,TT",PB,NHO,"BackEnd,Mobile",KV3,KC,Senior,1000-1500
+"GT,QLTG,",PB,NHO,FrontEnd,KV3,CB,Senior,>1500
+"LVN,TT,LVN",TB,TB,"BackEnd,Mobile",KV3,KC,Junior,500-1000
+",LVN,QLTG",TB,TB,"BackEnd,Mobile",KV2,KC,Senior,1000-1500
+"LVN,QLTG,GT",PB,LON,Tester,KV3,DV,Internship,1000-1500
+"QLTG,LVN,",TB,TB,Back-end,KV1,DV,Fresher,500-1000
+"LVN,LVN,GT",PB,TB,"BackEnd,FrontEnd",KV2,TT,Junior,1000-1500
+"TT,TT,QLTG",PB,NHO,FrontEnd,KV3,DV,Junior,1000-1500
+"GT,,QLTG",PB,NHO,FrontEnd,KV2,TT,Internship,1000-1500
+"GT,,GT",TB,NHO,"BackEnd,FrontEnd",KV3,DV,Junior,500-1000
+"LVN,GT,",PB,NHO,FrontEnd,KV3,CB,Fresher,1000-1500
+",QLTG,LVN",TB,NHO,Tester,KV2,DV,Internship,500-1000
+"TT,TT,GT",PB,NHO,Developer Option,KV1,CB,Junior,>1500
+",GT,LVN",PB,LON,Tester,KV2,TT,Junior,1000-1500
+"GT,TT,LVN",PB,NHO,"BackEnd,FrontEnd",KV3,CB,Internship,1000-1500
+"LVN,,TT",PB,NHO,Back-end,KV3,TT,Internship,1000-1500
+"LVN,LVN,",PB,NHO,Mobile,KV3,DV,Senior,>1500
+"TT,TT,LVN",TB,NHO,Tester,KV1,DV,Senior,1000-1500
+",QLTG,TT",TB,TB,FrontEnd,KV1,TT,Junior,1000-1500
+",GT,",PB,LON,Tester,KV2,KC,Senior,1000-1500
+"GT,,QLTG",TB,TB,Back-end,KV1,KC,Senior,1000-1500
+"QLTG,,LVN",PB,NHO,"Mobile,BackEnd,FrontEnd",KV3,KC,Internship,500-1000
+"QLTG,TT,GT",TB,TB,"BackEnd,Mobile",KV1,DV,Junior,1000-1500
+"QLTG,TT,",TB,TB,Back-end,KV2,DV,Junior,1000-1500
+"GT,LVN,",PB,NHO,"BackEnd,FrontEnd",KV2,DV,Junior,1000-1500
+",GT,LVN",TB,NHO,Tester,KV3,CB,Junior,500-1000
+",GT,QLTG",TB,NHO,Back-end,KV2,KC,Internship,500-1000
+",QLTG,TT",TB,NHO,"BackEnd,Mobile",KV2,DV,Senior,1000-1500
+"QLTG,LVN,GT",TB,NHO,Back-end,KV2,TT,Junior,1000-1500
+"LVN,GT,",TB,TB,"BackEnd,Mobile",KV1,KC,Senior,1000-1500
+"TT,GT,QLTG",TB,LON,"Mobile,BackEnd,FrontEnd",KV3,KC,Internship,500-1000
+"GT,GT,TT",PB,TB,Developer Option,KV1,CB,Senior,>1500
+"TT,,TT",KPB,LON,Back-end,KV1,CB,Fresher,1000-1500
+"GT,QLTG,QLTG",PB,LON,Back-end,KV1,TT,Internship,>1500
+"GT,LVN,TT",TB,NHO,"Mobile,BackEnd,FrontEnd",KV1,CB,Internship,500-1000
+"LVN,GT,LVN",KPB,NHO,FrontEnd,KV2,DV,Junior,1000-1500
+"QLTG,,LVN",PB,TB,FrontEnd,KV3,KC,Internship,500-1000
+"QLTG,GT,",TB,LON,Developer Option,KV1,TT,Junior,1000-1500
+"QLTG,TT,LVN",KPB,TB,Tester,KV2,TT,Senior,1000-1500
+",,LVN",TB,TB,"Mobile,BackEnd,FrontEnd",KV2,DV,Fresher,500-1000
+"QLTG,GT,",PB,NHO,"BackEnd,FrontEnd",KV3,CB,Junior,1000-1500
+"GT,,",PB,NHO,"BackEnd,FrontEnd",KV1,CB,Internship,1000-1500
+"TT,GT,QLTG",PB,NHO,"FrontEnd,Mobile",KV1,KC,Junior,1000-1500
+"LVN,QLTG,QLTG",PB,TB,"BackEnd,FrontEnd",KV1,KC,Junior,1000-1500
+"TT,LVN,TT",TB,TB,FrontEnd,KV1,DV,Internship,500-1000
+"TT,TT,LVN",PB,TB,"BackEnd,FrontEnd",KV3,TT,Junior,1000-1500
+"GT,GT,LVN",PB,NHO,"BackEnd,FrontEnd",KV2,DV,Junior,1000-1500
+"GT,,LVN",PB,NHO,"Mobile,BackEnd,FrontEnd",KV3,CB,Internship,1000-1500
+"GT,LVN,",PB,NHO,Back-end,KV1,DV,Fresher,1000-1500
+",GT,",PB,TB,"BackEnd,FrontEnd",KV1,CB,Fresher,1000-1500
+"GT,TT,GT",TB,NHO,Developer Option,KV3,KC,Fresher,500-1000
+"LVN,GT,QLTG",PB,LON,Tester,KV1,DV,Internship,1000-1500
+",GT,GT",PB,LON,Mobile,KV1,DV,Internship,1000-1500
+"LVN,QLTG,GT",PB,TB,Mobile,KV2,KC,Senior,1000-1500
+",GT,QLTG",TB,NHO,Mobile,KV2,KC,Internship,0-500
+"QLTG,TT,TT",KPB,NHO,Tester,KV2,DV,Junior,500-1000
+"LVN,GT,",PB,TB,Back-end,KV3,CB,Junior,1000-1500
+",GT,LVN",PB,NHO,"BackEnd,FrontEnd",KV1,CB,Internship,1000-1500
+"TT,LVN,QLTG",PB,TB,Back-end,KV1,TT,Junior,>1500
+"GT,TT,TT",TB,NHO,"Mobile,BackEnd,FrontEnd",KV1,KC,Senior,1000-1500
+"TT,GT,QLTG",PB,TB,Mobile,KV1,CB,Senior,>1500
+"LVN,GT,QLTG",PB,NHO,Developer Option,KV1,TT,Junior,>1500
+"GT,GT,",PB,TB,Tester,KV3,CB,Senior,>1500
+"LVN,,GT",TB,NHO,"BackEnd,FrontEnd",KV2,KC,Senior,500-1000
+"LVN,TT,GT",PB,LON,"Mobile,BackEnd,FrontEnd",KV2,KC,Internship,1000-1500
+",LVN,GT",TB,NHO,"BackEnd,FrontEnd",KV3,DV,Junior,500-1000
+"GT,,TT",PB,TB,"FrontEnd,Mobile",KV3,TT,Junior,1000-1500
+"LVN,QLTG,LVN",KPB,TB,Mobile,KV3,TT,Fresher,500-1000
+"TT,GT,",TB,NHO,"BackEnd,FrontEnd",KV1,CB,Fresher,500-1000
+"QLTG,TT,GT",PB,NHO,"Mobile,BackEnd,FrontEnd",KV2,CB,Junior,1000-1500
+"LVN,GT,",KPB,TB,Mobile,KV2,CB,Fresher,500-1000
+"QLTG,TT,",PB,LON,FrontEnd,KV2,DV,Fresher,1000-1500
+",TT,",PB,LON,Tester,KV1,TT,Junior,>1500
+"QLTG,QLTG,",PB,NHO,Developer Option,KV3,CB,Junior,1000-1500
+"GT,QLTG,QLTG",PB,NHO,Back-end,KV2,CB,Internship,1000-1500
+",LVN,TT",TB,NHO,FrontEnd,KV1,CB,Senior,1000-1500
+"TT,QLTG,QLTG",PB,NHO,"FrontEnd,Mobile",KV2,TT,Senior,>1500
+"QLTG,LVN,LVN",PB,TB,"BackEnd,FrontEnd",KV3,TT,Junior,1000-1500
+"QLTG,,LVN",KPB,TB,Tester,KV2,KC,Junior,500-1000
+",LVN,LVN",TB,LON,Developer Option,KV2,TT,Internship,500-1000
+"LVN,,TT",TB,NHO,Back-end,KV3,TT,Internship,500-1000
+"QLTG,,TT",PB,TB,Back-end,KV1,TT,Internship,1000-1500
+"GT,,QLTG",PB,TB,Mobile,KV3,TT,Fresher,1000-1500
+"LVN,GT,GT",PB,TB,"BackEnd,Mobile",KV2,KC,Junior,1000-1500
+"LVN,LVN,TT",TB,NHO,"Mobile,BackEnd,FrontEnd",KV3,KC,Senior,500-1000
+"LVN,GT,QLTG",PB,TB,"BackEnd,FrontEnd",KV1,KC,Senior,>1500
+"GT,TT,GT",PB,NHO,Mobile,KV1,DV,Fresher,1000-1500
+"QLTG,LVN,LVN",PB,LON,"BackEnd,Mobile",KV3,DV,Fresher,1000-1500
+"TT,TT,LVN",PB,TB,"BackEnd,Mobile",KV1,DV,Senior,>1500
+"GT,QLTG,QLTG",PB,NHO,Tester,KV1,TT,Senior,>1500
+"GT,LVN,QLTG",TB,TB,Developer Option,KV2,DV,Junior,1000-1500
+"TT,QLTG,TT",TB,NHO,Back-end,KV3,CB,Junior,1000-1500
+"TT,TT,",PB,NHO,Developer Option,KV2,KC,Fresher,500-1000
+"TT,LVN,",TB,LON,"BackEnd,Mobile",KV2,CB,Internship,500-1000
+"GT,,LVN",PB,NHO,Mobile,KV1,TT,Internship,1000-1500
+"QLTG,QLTG,",PB,TB,Tester,KV3,KC,Senior,1000-1500
+"GT,TT,QLTG",PB,TB,"Mobile,BackEnd,FrontEnd",KV2,TT,Junior,1000-1500
+"TT,TT,GT",PB,LON,"Mobile,BackEnd,FrontEnd",KV1,KC,Fresher,1000-1500
+"GT,,",PB,TB,Tester,KV3,CB,Junior,1000-1500
+"LVN,,LVN",PB,TB,"BackEnd,Mobile",KV1,KC,Internship,1000-1500
+"GT,QLTG,LVN",TB,TB,FrontEnd,KV2,KC,Internship,500-1000
+",QLTG,QLTG",TB,TB,"BackEnd,FrontEnd",KV1,TT,Internship,500-1000
+"TT,,QLTG",PB,TB,Developer Option,KV3,TT,Senior,>1500
+"QLTG,,LVN",PB,NHO,Developer Option,KV1,DV,Senior,>1500
+",QLTG,TT",PB,NHO,FrontEnd,KV1,CB,Fresher,1000-1500
+",,TT",PB,NHO,Developer Option,KV1,DV,Junior,1000-1500
+"LVN,LVN,LVN",PB,NHO,Mobile,KV2,DV,Internship,1000-1500
+"QLTG,QLTG,",PB,TB,FrontEnd,KV3,KC,Fresher,500-1000
+"QLTG,GT,LVN",TB,TB,FrontEnd,KV2,DV,Senior,1000-1500
+"QLTG,TT,GT",PB,LON,Back-end,KV3,DV,Junior,>1500
+",,",PB,NHO,"FrontEnd,Mobile",KV3,KC,Fresher,500-1000
+"QLTG,TT,TT",PB,NHO,"BackEnd,Mobile",KV2,TT,Senior,>1500
+"TT,GT,",PB,NHO,"BackEnd,Mobile",KV2,DV,Senior,>1500
+"TT,LVN,QLTG",PB,LON,Back-end,KV1,DV,Junior,>1500
+"QLTG,LVN,GT",KPB,TB,FrontEnd,KV3,DV,Junior,1000-1500
+"QLTG,GT,LVN",TB,NHO,Back-end,KV3,DV,Fresher,500-1000
+"QLTG,TT,GT",PB,NHO,Tester,KV1,TT,Internship,1000-1500
+"TT,GT,",PB,TB,"BackEnd,FrontEnd",KV2,CB,Internship,1000-1500
+"LVN,GT,QLTG",TB,TB,Mobile,KV3,TT,Junior,1000-1500
+",GT,GT",PB,NHO,Mobile,KV2,KC,Junior,1000-1500
+"LVN,QLTG,",TB,TB,"BackEnd,FrontEnd",KV1,CB,Senior,1000-1500
+"TT,QLTG,QLTG",PB,LON,FrontEnd,KV3,TT,Internship,1000-1500
+"LVN,TT,TT",KPB,TB,Developer Option,KV1,KC,Junior,500-1000
+"QLTG,,LVN",PB,TB,Tester,KV2,CB,Fresher,1000-1500
+"TT,,",PB,TB,"Mobile,BackEnd,FrontEnd",KV3,KC,Senior,1000-1500
+"LVN,TT,GT",KPB,NHO,"FrontEnd,Mobile",KV3,DV,Senior,1000-1500
+"LVN,TT,LVN",PB,TB,"Mobile,BackEnd,FrontEnd",KV2,TT,Senior,>1500
+",TT,TT",PB,TB,"Mobile,BackEnd,FrontEnd",KV1,TT,Junior,>1500
+"QLTG,QLTG,TT",TB,TB,Tester,KV3,CB,Senior,1000-1500
+",GT,TT",PB,NHO,"FrontEnd,Mobile",KV1,DV,Fresher,1000-1500
+"LVN,QLTG,TT",TB,TB,"BackEnd,FrontEnd",KV2,DV,Internship,500-1000
+",,LVN",PB,TB,FrontEnd,KV2,TT,Internship,1000-1500
+",QLTG,QLTG",KPB,TB,Developer Option,KV2,KC,Internship,500-1000
+"GT,TT,QLTG",TB,TB,Tester,KV1,TT,Internship,500-1000
+",LVN,GT",PB,NHO,"BackEnd,Mobile",KV1,TT,Junior,1000-1500
+"TT,GT,QLTG",TB,NHO,Developer Option,KV1,DV,Internship,500-1000
+"GT,GT,GT",TB,TB,Mobile,KV2,TT,Senior,1000-1500
+"TT,LVN,QLTG",TB,NHO,FrontEnd,KV1,CB,Internship,500-1000
+"LVN,GT,GT",PB,NHO,"BackEnd,FrontEnd",KV2,CB,Junior,1000-1500
+"LVN,LVN,QLTG",PB,TB,"FrontEnd,Mobile",KV1,KC,Fresher,1000-1500
+"QLTG,LVN,QLTG",PB,TB,Tester,KV2,DV,Junior,1000-1500
+"GT,,GT",TB,NHO,Back-end,KV2,CB,Junior,1000-1500
+",QLTG,QLTG",PB,NHO,"FrontEnd,Mobile",KV3,CB,Junior,1000-1500
+"QLTG,QLTG,",TB,NHO,Tester,KV1,DV,Fresher,500-1000
+"GT,,LVN",TB,NHO,Mobile,KV2,KC,Internship,0-500
+"LVN,LVN,LVN",KPB,NHO,"BackEnd,FrontEnd",KV3,CB,Senior,1000-1500
+"LVN,GT,GT",PB,TB,FrontEnd,KV3,TT,Fresher,1000-1500
+"GT,GT,TT",TB,NHO,Mobile,KV3,DV,Senior,1000-1500
+"LVN,TT,GT",TB,NHO,Back-end,KV1,CB,Junior,1000-1500
+"GT,LVN,LVN",PB,NHO,"Mobile,BackEnd,FrontEnd",KV2,TT,Junior,1000-1500
+"TT,TT,",KPB,TB,"Mobile,BackEnd,FrontEnd",KV2,TT,Internship,500-1000
+"LVN,QLTG,",PB,NHO,FrontEnd,KV3,KC,Senior,1000-1500
+"GT,QLTG,TT",TB,LON,"BackEnd,Mobile",KV2,CB,Senior,1000-1500
+"TT,QLTG,QLTG",PB,NHO,"BackEnd,Mobile",KV1,KC,Senior,>1500
+"LVN,GT,",TB,TB,"BackEnd,Mobile",KV1,DV,Fresher,500-1000
+",LVN,LVN",TB,TB,FrontEnd,KV3,TT,Fresher,500-1000
+",LVN,GT",KPB,TB,Developer Option,KV3,KC,Internship,500-1000
+"QLTG,TT,TT",PB,TB,Tester,KV3,DV,Junior,1000-1500
+"LVN,QLTG,LVN",PB,NHO,FrontEnd,KV3,KC,Senior,1000-1500
+"QLTG,GT,GT",TB,NHO,Tester,KV2,CB,Fresher,500-1000
+"GT,,TT",TB,NHO,Tester,KV3,KC,Internship,0-500
+"LVN,GT,LVN",PB,NHO,"FrontEnd,Mobile",KV3,CB,Fresher,1000-1500
+",,TT",PB,TB,Developer Option,KV3,DV,Fresher,1000-1500
+",QLTG,",TB,NHO,"BackEnd,FrontEnd",KV1,CB,Junior,1000-1500
+",QLTG,TT",KPB,NHO,Tester,KV3,KC,Fresher,0-500
+"QLTG,LVN,GT",PB,NHO,Tester,KV1,DV,Fresher,1000-1500
+",LVN,TT",PB,NHO,Mobile,KV1,CB,Fresher,1000-1500
+"QLTG,LVN,GT",PB,NHO,FrontEnd,KV1,CB,Senior,>1500
+"GT,QLTG,",TB,NHO,FrontEnd,KV2,CB,Internship,500-1000
+"GT,LVN,",KPB,NHO,FrontEnd,KV3,KC,Internship,0-500
+"LVN,TT,GT",PB,NHO,Developer Option,KV1,KC,Senior,>1500
+",GT,LVN",TB,TB,Back-end,KV1,DV,Junior,1000-1500
+",,GT",PB,NHO,Mobile,KV1,KC,Junior,1000-1500
+"TT,TT,GT",TB,NHO,Developer Option,KV1,KC,Internship,500-1000
+"QLTG,GT,LVN",TB,TB,Mobile,KV2,KC,Internship,500-1000
+"LVN,GT,QLTG",KPB,TB,"BackEnd,FrontEnd",KV1,CB,Junior,1000-1500
+"TT,,",KPB,NHO,FrontEnd,KV1,DV,Senior,1000-1500
+"LVN,QLTG,TT",PB,NHO,Mobile,KV1,KC,Senior,>1500
+",LVN,QLTG",PB,NHO,Tester,KV3,CB,Junior,1000-1500
+"LVN,LVN,LVN",TB,NHO,"FrontEnd,Mobile",KV1,DV,Fresher,500-1000
+"GT,LVN,QLTG",PB,TB,Mobile,KV2,DV,Fresher,1000-1500
+",LVN,LVN",PB,TB,FrontEnd,KV1,KC,Internship,500-1000
+"GT,QLTG,QLTG",PB,TB,Mobile,KV1,KC,Junior,1000-1500
+"GT,GT,",KPB,TB,Tester,KV3,KC,Internship,0-500
+"QLTG,QLTG,GT",TB,NHO,"BackEnd,Mobile",KV2,KC,Senior,1000-1500
+"LVN,GT,QLTG",PB,NHO,"BackEnd,Mobile",KV1,CB,Senior,>1500
+"QLTG,TT,GT",PB,NHO,FrontEnd,KV2,DV,Senior,>1500
+"TT,TT,QLTG",TB,NHO,Back-end,KV1,TT,Junior,1000-1500
+"LVN,LVN,LVN",TB,TB,Back-end,KV3,KC,Fresher,500-1000
+"GT,QLTG,LVN",PB,TB,Developer Option,KV1,DV,Fresher,1000-1500
+"GT,,GT",KPB,NHO,"BackEnd,FrontEnd",KV3,TT,Junior,500-1000
+"LVN,,TT",PB,NHO,Developer Option,KV3,DV,Senior,>1500
+"LVN,,GT",TB,NHO,Back-end,KV2,KC,Junior,500-1000
+"GT,TT,LVN",TB,TB,"BackEnd,FrontEnd",KV1,CB,Junior,1000-1500
+",,LVN",PB,LON,"BackEnd,Mobile",KV2,TT,Fresher,1000-1500
+"LVN,LVN,TT",TB,TB,"BackEnd,FrontEnd",KV2,DV,Junior,1000-1500
+"QLTG,TT,",TB,NHO,Tester,KV3,KC,Junior,500-1000
+"QLTG,GT,GT",PB,NHO,FrontEnd,KV1,CB,Senior,>1500
+"LVN,LVN,TT",PB,TB,Developer Option,KV1,TT,Senior,>1500
+"LVN,,LVN",PB,TB,FrontEnd,KV1,DV,Senior,>1500
+"TT,,GT",PB,TB,"BackEnd,Mobile",KV3,TT,Senior,>1500
+",GT,",PB,NHO,Back-end,KV1,CB,Fresher,1000-1500
+"TT,TT,LVN",PB,TB,"FrontEnd,Mobile",KV2,CB,Internship,1000-1500
+",QLTG,QLTG",PB,NHO,Tester,KV2,CB,Junior,1000-1500
+"GT,TT,",PB,TB,"BackEnd,Mobile",KV3,KC,Internship,500-1000
+",TT,TT",PB,LON,Tester,KV1,CB,Junior,>1500
+"TT,,",PB,NHO,Mobile,KV2,TT,Internship,1000-1500
+",LVN,TT",TB,NHO,"FrontEnd,Mobile",KV2,CB,Fresher,500-1000
+"LVN,GT,LVN",KPB,LON,Back-end,KV3,KC,Fresher,500-1000
+"QLTG,LVN,LVN",PB,TB,"Mobile,BackEnd,FrontEnd",KV3,CB,Internship,1000-1500
+"TT,LVN,GT",TB,TB,Developer Option,KV2,DV,Fresher,500-1000
+"LVN,GT,QLTG",TB,LON,"BackEnd,FrontEnd",KV2,CB,Internship,500-1000
+"GT,,QLTG",KPB,NHO,Mobile,KV3,DV,Fresher,500-1000
+",QLTG,",KPB,TB,Mobile,KV1,CB,Junior,1000-1500
+",,QLTG",PB,NHO,Mobile,KV3,DV,Internship,1000-1500
+"TT,LVN,QLTG",PB,TB,Mobile,KV3,TT,Fresher,1000-1500
+"LVN,QLTG,",TB,NHO,Back-end,KV3,DV,Fresher,500-1000
+",,",PB,TB,"FrontEnd,Mobile",KV2,DV,Internship,1000-1500
+"TT,GT,GT",PB,NHO,Back-end,KV3,DV,Senior,>1500
+"LVN,,TT",PB,TB,FrontEnd,KV1,KC,Internship,500-1000
+",QLTG,GT",PB,TB,Mobile,KV2,CB,Senior,>1500
+"GT,QLTG,LVN",TB,NHO,Developer Option,KV3,DV,Junior,500-1000
+"GT,GT,LVN",PB,TB,Back-end,KV1,KC,Internship,1000-1500
+"QLTG,GT,QLTG",KPB,NHO,"Mobile,BackEnd,FrontEnd",KV3,DV,Senior,1000-1500
+"QLTG,LVN,",PB,NHO,Developer Option,KV1,TT,Junior,1000-1500
+"GT,,TT",PB,TB,"BackEnd,Mobile",KV1,DV,Senior,>1500
+"LVN,,TT",PB,NHO,FrontEnd,KV2,KC,Internship,500-1000
+"TT,GT,",TB,NHO,Mobile,KV3,DV,Senior,1000-1500
+"QLTG,,GT",PB,TB,"BackEnd,Mobile",KV3,TT,Internship,1000-1500
+"TT,,",TB,NHO,FrontEnd,KV2,KC,Internship,0-500
+"GT,GT,LVN",PB,TB,Tester,KV3,CB,Junior,1000-1500
+"TT,QLTG,LVN",KPB,TB,"FrontEnd,Mobile",KV2,DV,Junior,1000-1500
+"LVN,,TT",PB,TB,Tester,KV2,DV,Junior,1000-1500
+"TT,GT,LVN",PB,NHO,Tester,KV1,TT,Junior,1000-1500
+"TT,GT,TT",PB,TB,Back-end,KV2,DV,Junior,>1500
+",GT,GT",TB,NHO,"Mobile,BackEnd,FrontEnd",KV3,TT,Junior,500-1000
+"GT,QLTG,GT",PB,NHO,Mobile,KV3,DV,Senior,>1500
+"TT,LVN,",PB,TB,"FrontEnd,Mobile",KV1,CB,Internship,1000-1500
+"GT,LVN,",PB,TB,FrontEnd,KV3,KC,Internship,500-1000
+",TT,LVN",PB,TB,Developer Option,KV2,DV,Internship,1000-1500
+"QLTG,GT,LVN",PB,NHO,Developer Option,KV2,CB,Junior,1000-1500
+"TT,QLTG,QLTG",PB,TB,Developer Option,KV2,DV,Junior,1000-1500
+"QLTG,,LVN",PB,NHO,"BackEnd,FrontEnd",KV3,CB,Fresher,1000-1500
+"GT,QLTG,TT",TB,TB,"FrontEnd,Mobile",KV3,DV,Senior,1000-1500
+"QLTG,,TT",PB,NHO,Back-end,KV1,TT,Junior,>1500
+"TT,,GT",PB,NHO,Back-end,KV1,TT,Junior,>1500
+"TT,QLTG,LVN",TB,NHO,Tester,KV2,TT,Senior,1000-1500
+"QLTG,QLTG,",TB,LON,Mobile,KV1,KC,Fresher,500-1000
+",GT,QLTG",TB,NHO,"BackEnd,FrontEnd",KV1,KC,Internship,500-1000
+",,TT",TB,TB,"BackEnd,FrontEnd",KV3,CB,Junior,500-1000
+"TT,TT,LVN",PB,TB,FrontEnd,KV1,KC,Senior,>1500
+"TT,LVN,LVN",PB,TB,"FrontEnd,Mobile",KV3,CB,Internship,1000-1500
+"GT,,GT",PB,NHO,Back-end,KV3,TT,Senior,>1500
+"QLTG,QLTG,QLTG",PB,TB,Tester,KV3,KC,Junior,1000-1500
+"LVN,QLTG,LVN",PB,NHO,Tester,KV3,KC,Fresher,500-1000
+"QLTG,TT,QLTG",PB,NHO,"BackEnd,Mobile",KV3,KC,Senior,1000-1500
+",QLTG,TT",TB,NHO,"BackEnd,FrontEnd",KV2,TT,Fresher,500-1000
+"TT,TT,QLTG",PB,NHO,"FrontEnd,Mobile",KV3,KC,Senior,1000-1500
+"QLTG,GT,LVN",TB,TB,Mobile,KV1,DV,Fresher,500-1000
+"GT,,",KPB,TB,Back-end,KV3,TT,Internship,500-1000
+",,QLTG",PB,NHO,"BackEnd,FrontEnd",KV1,CB,Fresher,1000-1500
+",QLTG,GT",PB,NHO,Developer Option,KV2,KC,Senior,1000-1500
+"TT,GT,LVN",PB,TB,Tester,KV1,CB,Fresher,1000-1500
+"QLTG,TT,GT",TB,NHO,Developer Option,KV3,TT,Junior,500-1000
+"GT,GT,TT",PB,NHO,"Mobile,BackEnd,FrontEnd",KV2,TT,Junior,1000-1500
+"GT,LVN,QLTG",PB,NHO,FrontEnd,KV1,TT,Fresher,1000-1500
+"TT,TT,GT",PB,NHO,"FrontEnd,Mobile",KV3,TT,Senior,>1500
+"GT,LVN,GT",TB,TB,FrontEnd,KV1,TT,Senior,1000-1500
+",LVN,",TB,NHO,Mobile,KV1,KC,Fresher,500-1000
+",QLTG,GT",TB,NHO,"Mobile,BackEnd,FrontEnd",KV1,TT,Junior,1000-1500
+"GT,GT,LVN",TB,NHO,Developer Option,KV3,KC,Junior,500-1000
+"QLTG,GT,QLTG",TB,NHO,Developer Option,KV2,TT,Fresher,500-1000
+"QLTG,,TT",TB,NHO,Mobile,KV2,CB,Senior,1000-1500
+"GT,,TT",TB,TB,"FrontEnd,Mobile",KV2,CB,Senior,1000-1500
+"GT,GT,QLTG",PB,NHO,Mobile,KV2,DV,Fresher,1000-1500
+",QLTG,LVN",PB,NHO,FrontEnd,KV3,TT,Internship,1000-1500
+",TT,GT",PB,NHO,"BackEnd,FrontEnd",KV1,CB,Senior,>1500
+"LVN,QLTG,LVN",PB,NHO,Tester,KV2,KC,Fresher,500-1000
+"TT,GT,TT",TB,TB,Tester,KV2,TT,Senior,1000-1500
+",TT,GT",PB,TB,"FrontEnd,Mobile",KV3,TT,Junior,1000-1500
+"LVN,LVN,GT",PB,NHO,"BackEnd,FrontEnd",KV3,TT,Internship,1000-1500
+"TT,GT,",PB,TB,Developer Option,KV1,DV,Fresher,1000-1500
+"QLTG,GT,QLTG",PB,NHO,Back-end,KV3,CB,Junior,1000-1500
+"GT,GT,QLTG",PB,NHO,FrontEnd,KV3,DV,Senior,>1500
+"TT,QLTG,LVN",TB,NHO,"BackEnd,Mobile",KV2,TT,Fresher,500-1000
+"GT,QLTG,QLTG",PB,LON,"Mobile,BackEnd,FrontEnd",KV1,KC,Fresher,1000-1500
+"GT,TT,QLTG",PB,TB,Mobile,KV3,CB,Junior,1000-1500
+"LVN,TT,LVN",PB,TB,"Mobile,BackEnd,FrontEnd",KV2,TT,Senior,>1500
+",LVN,TT",PB,NHO,Back-end,KV3,CB,Junior,1000-1500
+"QLTG,,TT",TB,TB,FrontEnd,KV2,DV,Fresher,500-1000
+"LVN,QLTG,GT",TB,TB,Back-end,KV3,KC,Internship,500-1000
+",GT,LVN",PB,LON,FrontEnd,KV1,KC,Fresher,1000-1500
+"TT,QLTG,QLTG",PB,TB,Mobile,KV2,KC,Fresher,1000-1500
+"GT,TT,LVN",PB,TB,Developer Option,KV2,TT,Internship,1000-1500
+"LVN,TT,QLTG",PB,NHO,"BackEnd,FrontEnd",KV3,CB,Internship,1000-1500
+"TT,TT,",KPB,NHO,"FrontEnd,Mobile",KV3,CB,Fresher,500-1000
+"LVN,QLTG,QLTG",PB,TB,Developer Option,KV1,TT,Internship,1000-1500
+",QLTG,TT",PB,TB,Back-end,KV2,KC,Senior,1000-1500
+"LVN,GT,TT",PB,LON,Mobile,KV2,CB,Fresher,1000-1500
+"TT,,",PB,NHO,Tester,KV1,KC,Senior,1000-1500
+"TT,QLTG,GT",TB,NHO,"BackEnd,Mobile",KV2,CB,Fresher,500-1000
+",TT,QLTG",TB,NHO,"BackEnd,FrontEnd",KV3,CB,Senior,1000-1500
+",QLTG,TT",PB,NHO,"FrontEnd,Mobile",KV1,CB,Fresher,1000-1500
+"LVN,TT,TT",TB,TB,Tester,KV3,CB,Junior,500-1000
+",QLTG,GT",PB,TB,"BackEnd,Mobile",KV2,KC,Junior,1000-1500
+"QLTG,LVN,GT",PB,LON,Back-end,KV2,KC,Senior,>1500
+",,LVN",PB,TB,Developer Option,KV3,DV,Internship,1000-1500
+"LVN,GT,TT",PB,TB,Developer Option,KV3,DV,Internship,1000-1500
+",,TT",TB,TB,"Mobile,BackEnd,FrontEnd",KV3,CB,Senior,1000-1500
+"QLTG,QLTG,QLTG",PB,NHO,"BackEnd,FrontEnd",KV3,KC,Fresher,500-1000
+",TT,TT",KPB,NHO,"BackEnd,Mobile",KV3,TT,Fresher,500-1000
+",TT,LVN",TB,NHO,FrontEnd,KV1,DV,Internship,500-1000
+"QLTG,QLTG,TT",KPB,LON,"FrontEnd,Mobile",KV1,KC,Senior,1000-1500
+"LVN,LVN,TT",PB,NHO,Developer Option,KV1,DV,Junior,>1500
+"GT,QLTG,TT",TB,NHO,Mobile,KV3,CB,Fresher,500-1000
+"LVN,TT,",TB,LON,"Mobile,BackEnd,FrontEnd",KV1,DV,Senior,>1500
+"GT,LVN,",KPB,TB,Back-end,KV1,KC,Fresher,500-1000
+"LVN,QLTG,GT",PB,NHO,Developer Option,KV2,DV,Senior,>1500
+"QLTG,QLTG,LVN",PB,NHO,Developer Option,KV3,DV,Fresher,1000-1500
+"GT,QLTG,TT",PB,NHO,FrontEnd,KV1,DV,Internship,1000-1500
+"QLTG,GT,QLTG",TB,TB,Tester,KV3,CB,Junior,500-1000
+"GT,QLTG,",TB,NHO,Developer Option,KV3,TT,Fresher,500-1000
+"LVN,LVN,GT",KPB,TB,FrontEnd,KV2,KC,Junior,500-1000
+"QLTG,GT,LVN",PB,TB,"BackEnd,FrontEnd",KV3,TT,Fresher,1000-1500
+",LVN,",PB,NHO,"BackEnd,FrontEnd",KV1,KC,Senior,1000-1500
+"QLTG,TT,TT",KPB,NHO,FrontEnd,KV1,DV,Fresher,500-1000
+"GT,TT,QLTG",PB,TB,Mobile,KV1,KC,Fresher,1000-1500
+",GT,GT",PB,NHO,"FrontEnd,Mobile",KV1,DV,Senior,>1500
+"TT,GT,TT",PB,TB,Mobile,KV3,TT,Internship,1000-1500
+"QLTG,GT,",TB,NHO,Tester,KV3,CB,Junior,500-1000
+",QLTG,GT",KPB,NHO,Back-end,KV2,TT,Junior,1000-1500
+"LVN,LVN,TT",PB,NHO,"BackEnd,FrontEnd",KV2,CB,Senior,>1500
+"TT,GT,QLTG",TB,TB,Back-end,KV3,DV,Internship,500-1000
+"QLTG,GT,LVN",TB,NHO,Back-end,KV2,DV,Fresher,500-1000
+"TT,QLTG,LVN",PB,NHO,"BackEnd,Mobile",KV2,CB,Junior,1000-1500
+"TT,GT,LVN",KPB,LON,Tester,KV2,KC,Junior,500-1000
+"LVN,LVN,GT",PB,NHO,Back-end,KV1,KC,Fresher,1000-1500
+",TT,QLTG",TB,NHO,"FrontEnd,Mobile",KV3,DV,Fresher,500-1000
+"LVN,,GT",PB,NHO,FrontEnd,KV2,KC,Fresher,500-1000
+"TT,TT,QLTG",PB,TB,Developer Option,KV1,CB,Fresher,1000-1500
+"GT,QLTG,TT",KPB,NHO,"FrontEnd,Mobile",KV1,CB,Junior,1000-1500
+",GT,TT",TB,TB,"Mobile,BackEnd,FrontEnd",KV1,KC,Fresher,500-1000
+"GT,,TT",PB,TB,"Mobile,BackEnd,FrontEnd",KV1,DV,Internship,1000-1500
+"GT,QLTG,LVN",KPB,TB,"FrontEnd,Mobile",KV1,CB,Junior,1000-1500
+"LVN,QLTG,QLTG",KPB,TB,FrontEnd,KV2,TT,Junior,1000-1500
+"QLTG,GT,TT",KPB,TB,Tester,KV2,TT,Senior,1000-1500
+"QLTG,QLTG,LVN",KPB,NHO,"FrontEnd,Mobile",KV3,KC,Junior,500-1000
+"GT,,TT",KPB,TB,Back-end,KV1,DV,Fresher,1000-1500
+"GT,GT,QLTG",PB,NHO,"BackEnd,FrontEnd",KV3,CB,Junior,1000-1500
+",,QLTG",TB,NHO,"FrontEnd,Mobile",KV3,KC,Senior,500-1000
+",TT,",PB,NHO,"Mobile,BackEnd,FrontEnd",KV2,TT,Senior,>1500
+",TT,GT",PB,TB,Developer Option,KV1,TT,Junior,>1500
+"GT,QLTG,LVN",TB,LON,"Mobile,BackEnd,FrontEnd",KV3,TT,Junior,1000-1500
+"TT,TT,QLTG",PB,TB,"FrontEnd,Mobile",KV3,TT,Junior,1000-1500
+"QLTG,QLTG,",PB,NHO,Back-end,KV3,TT,Junior,1000-1500
+"GT,GT,",KPB,TB,Mobile,KV1,KC,Internship,500-1000
+"LVN,LVN,QLTG",PB,TB,"FrontEnd,Mobile",KV1,KC,Internship,1000-1500
+"TT,GT,",TB,TB,Developer Option,KV2,CB,Junior,1000-1500
+"QLTG,LVN,QLTG",KPB,TB,"FrontEnd,Mobile",KV2,CB,Fresher,500-1000
+",LVN,QLTG",KPB,TB,"Mobile,BackEnd,FrontEnd",KV2,CB,Fresher,500-1000
+",,GT",PB,TB,Developer Option,KV1,TT,Junior,1000-1500
+"LVN,,LVN",PB,TB,"FrontEnd,Mobile",KV1,TT,Fresher,1000-1500
+"TT,LVN,TT",KPB,TB,"Mobile,BackEnd,FrontEnd",KV1,CB,Senior,1000-1500
+"LVN,QLTG,GT",PB,LON,FrontEnd,KV3,CB,Senior,>1500
+"QLTG,QLTG,QLTG",TB,NHO,"BackEnd,Mobile",KV2,CB,Internship,500-1000
+"LVN,QLTG,GT",KPB,TB,"BackEnd,FrontEnd",KV1,DV,Senior,1000-1500
+"LVN,LVN,TT",PB,NHO,Mobile,KV2,CB,Senior,>1500
+"QLTG,LVN,",TB,NHO,"FrontEnd,Mobile",KV3,KC,Senior,500-1000
+",GT,LVN",PB,NHO,"BackEnd,Mobile",KV3,DV,Junior,1000-1500
+"LVN,LVN,",TB,TB,"BackEnd,FrontEnd",KV3,KC,Internship,0-500
+"LVN,,TT",PB,NHO,"Mobile,BackEnd,FrontEnd",KV1,DV,Internship,1000-1500
+"GT,,TT",PB,TB,"BackEnd,FrontEnd",KV1,DV,Fresher,1000-1500
+"TT,GT,",TB,TB,FrontEnd,KV3,CB,Junior,500-1000
+"TT,TT,GT",TB,NHO,"Mobile,BackEnd,FrontEnd",KV2,KC,Fresher,500-1000
+"GT,GT,GT",TB,NHO,"BackEnd,Mobile",KV2,DV,Senior,1000-1500
+",,GT",PB,NHO,"BackEnd,FrontEnd",KV3,DV,Fresher,1000-1500
+"LVN,TT,",TB,NHO,"FrontEnd,Mobile",KV1,DV,Senior,1000-1500
+"QLTG,,QLTG",PB,NHO,Back-end,KV2,KC,Junior,1000-1500
+",GT,GT",PB,TB,Developer Option,KV3,KC,Internship,500-1000
+"LVN,LVN,QLTG",PB,NHO,Developer Option,KV2,CB,Senior,>1500
+"LVN,QLTG,QLTG",PB,TB,Tester,KV1,DV,Senior,>1500
+"GT,QLTG,",PB,NHO,Tester,KV1,CB,Senior,>1500
+"QLTG,LVN,GT",PB,TB,Back-end,KV2,DV,Senior,>1500
+"LVN,QLTG,GT",PB,NHO,"BackEnd,FrontEnd",KV1,TT,Senior,>1500
+"TT,GT,",PB,NHO,Developer Option,KV1,KC,Fresher,1000-1500
+"TT,,TT",TB,TB,"Mobile,BackEnd,FrontEnd",KV3,CB,Internship,500-1000
+",QLTG,TT",PB,NHO,Tester,KV2,KC,Fresher,500-1000
+"TT,QLTG,TT",PB,NHO,Developer Option,KV3,DV,Fresher,1000-1500
+",TT,",TB,LON,"BackEnd,Mobile",KV3,DV,Senior,1000-1500
+",LVN,GT",PB,TB,Developer Option,KV3,KC,Junior,1000-1500
+"TT,LVN,GT",TB,TB,"BackEnd,FrontEnd",KV3,KC,Junior,500-1000
+"LVN,TT,TT",TB,NHO,"Mobile,BackEnd,FrontEnd",KV1,KC,Fresher,500-1000
+",TT,",PB,NHO,Mobile,KV3,KC,Junior,1000-1500
+"QLTG,,GT",TB,NHO,FrontEnd,KV1,CB,Fresher,500-1000
+",GT,LVN",TB,LON,"Mobile,BackEnd,FrontEnd",KV3,KC,Fresher,500-1000
+"QLTG,LVN,LVN",PB,TB,"Mobile,BackEnd,FrontEnd",KV2,TT,Junior,1000-1500
+"GT,QLTG,",PB,LON,FrontEnd,KV2,DV,Senior,>1500
+"QLTG,QLTG,",PB,NHO,"BackEnd,FrontEnd",KV3,KC,Senior,1000-1500
+"LVN,LVN,QLTG",PB,NHO,Back-end,KV1,CB,Fresher,1000-1500
+"GT,TT,GT",PB,LON,"BackEnd,Mobile",KV2,DV,Internship,1000-1500
+"QLTG,LVN,QLTG",PB,NHO,Mobile,KV3,DV,Fresher,1000-1500
+"TT,QLTG,GT",PB,TB,"BackEnd,FrontEnd",KV3,CB,Junior,1000-1500
+",QLTG,LVN",PB,NHO,Mobile,KV1,KC,Internship,500-1000
+"LVN,LVN,TT",TB,TB,"BackEnd,Mobile",KV3,TT,Internship,500-1000
+"GT,LVN,TT",KPB,NHO,"FrontEnd,Mobile",KV2,CB,Senior,1000-1500
+"GT,QLTG,GT",PB,TB,"BackEnd,Mobile",KV2,DV,Fresher,1000-1500
+"QLTG,TT,",TB,NHO,Mobile,KV2,CB,Fresher,500-1000
+"TT,GT,TT",TB,LON,FrontEnd,KV3,CB,Senior,1000-1500
+",,",TB,TB,"BackEnd,Mobile",KV1,CB,Fresher,500-1000
+"TT,TT,LVN",PB,NHO,"Mobile,BackEnd,FrontEnd",KV3,DV,Internship,1000-1500
+"QLTG,QLTG,GT",PB,NHO,Mobile,KV3,KC,Fresher,500-1000
+",TT,",PB,TB,Developer Option,KV1,KC,Senior,1000-1500
+"LVN,LVN,LVN",PB,TB,FrontEnd,KV1,CB,Internship,1000-1500
+",GT,LVN",PB,LON,"FrontEnd,Mobile",KV1,TT,Junior,>1500
+"TT,QLTG,GT",PB,NHO,Back-end,KV2,CB,Fresher,1000-1500
+"QLTG,QLTG,",PB,NHO,Developer Option,KV2,KC,Internship,500-1000
+"TT,QLTG,",PB,NHO,"BackEnd,Mobile",KV3,DV,Junior,1000-1500
+"GT,GT,TT",PB,TB,"FrontEnd,Mobile",KV1,TT,Internship,1000-1500
+"TT,,QLTG",PB,NHO,Back-end,KV1,DV,Junior,>1500
+"QLTG,TT,TT",TB,TB,"Mobile,BackEnd,FrontEnd",KV2,KC,Fresher,500-1000
+"GT,GT,LVN",PB,NHO,"BackEnd,FrontEnd",KV1,TT,Internship,1000-1500
+"QLTG,QLTG,TT",PB,LON,"BackEnd,FrontEnd",KV2,TT,Fresher,1000-1500
+"GT,GT,GT",PB,NHO,"Mobile,BackEnd,FrontEnd",KV3,DV,Internship,1000-1500
+"GT,QLTG,LVN",PB,TB,"BackEnd,Mobile",KV2,TT,Junior,1000-1500
+"TT,TT,",TB,NHO,"Mobile,BackEnd,FrontEnd",KV1,DV,Senior,1000-1500
+"GT,LVN,GT",TB,TB,"BackEnd,FrontEnd",KV1,TT,Junior,1000-1500
+"LVN,QLTG,GT",PB,TB,"Mobile,BackEnd,FrontEnd",KV2,TT,Fresher,1000-1500
+"GT,GT,GT",PB,NHO,Mobile,KV1,TT,Fresher,1000-1500
+"GT,,QLTG",PB,NHO,Tester,KV3,DV,Fresher,1000-1500
+"QLTG,,QLTG",TB,NHO,Mobile,KV3,TT,Junior,500-1000
+"GT,GT,",PB,TB,Developer Option,KV2,KC,Junior,1000-1500
+"TT,,QLTG",PB,TB,Mobile,KV3,DV,Internship,1000-1500
+"TT,LVN,",TB,TB,"BackEnd,Mobile",KV1,KC,Fresher,500-1000
+",GT,TT",PB,TB,Tester,KV1,TT,Junior,1000-1500
+"QLTG,LVN,QLTG",TB,NHO,Mobile,KV1,TT,Fresher,500-1000
+"GT,LVN,QLTG",PB,TB,Tester,KV1,KC,Internship,500-1000
+"LVN,TT,QLTG",PB,LON,"BackEnd,Mobile",KV2,CB,Fresher,1000-1500
+"TT,QLTG,LVN",TB,LON,FrontEnd,KV2,DV,Junior,1000-1500
+",TT,QLTG",PB,NHO,"BackEnd,FrontEnd",KV2,CB,Senior,>1500
+"TT,QLTG,TT",PB,NHO,"Mobile,BackEnd,FrontEnd",KV2,TT,Junior,1000-1500
+"GT,TT,LVN",TB,TB,FrontEnd,KV1,CB,Junior,1000-1500
+"GT,TT,GT",TB,TB,Developer Option,KV3,DV,Fresher,500-1000
+"TT,TT,",PB,TB,"Mobile,BackEnd,FrontEnd",KV3,TT,Senior,>1500
+"TT,TT,QLTG",PB,NHO,Developer Option,KV1,KC,Fresher,1000-1500
+",,",PB,NHO,Developer Option,KV1,DV,Internship,1000-1500
+"LVN,TT,GT",TB,TB,Tester,KV2,DV,Senior,1000-1500
+"GT,QLTG,GT",TB,TB,Back-end,KV2,KC,Fresher,500-1000
+",QLTG,QLTG",PB,NHO,"BackEnd,Mobile",KV2,CB,Junior,1000-1500
+",TT,",PB,TB,Developer Option,KV3,CB,Internship,1000-1500
+"TT,,GT",PB,LON,Tester,KV2,CB,Junior,1000-1500
+"TT,TT,",PB,NHO,"BackEnd,Mobile",KV3,CB,Junior,1000-1500
+",QLTG,GT",PB,NHO,Back-end,KV1,KC,Internship,1000-1500
+"TT,,QLTG",PB,NHO,"FrontEnd,Mobile",KV3,CB,Internship,1000-1500
+"QLTG,QLTG,LVN",PB,NHO,Mobile,KV2,DV,Internship,1000-1500
+",QLTG,GT",TB,LON,"BackEnd,Mobile",KV1,TT,Internship,1000-1500
+"QLTG,QLTG,",TB,NHO,Back-end,KV3,CB,Junior,500-1000
+"GT,TT,TT",PB,TB,"FrontEnd,Mobile",KV1,DV,Senior,>1500
+"QLTG,LVN,LVN",PB,NHO,Developer Option,KV2,TT,Internship,1000-1500
+",,LVN",KPB,TB,Back-end,KV2,CB,Senior,1000-1500
+",LVN,QLTG",PB,NHO,FrontEnd,KV3,DV,Senior,>1500
+"TT,LVN,QLTG",PB,TB,"FrontEnd,Mobile",KV2,TT,Fresher,1000-1500
+"LVN,,",PB,NHO,"Mobile,BackEnd,FrontEnd",KV3,KC,Senior,1000-1500
+"LVN,GT,LVN",PB,TB,Mobile,KV1,TT,Fresher,1000-1500
+"LVN,TT,LVN",KPB,NHO,"BackEnd,Mobile",KV3,CB,Junior,1000-1500
+",LVN,QLTG",PB,NHO,FrontEnd,KV2,CB,Senior,>1500
+"TT,LVN,GT",PB,NHO,"Mobile,BackEnd,FrontEnd",KV2,KC,Junior,1000-1500
+"QLTG,,LVN",PB,TB,"FrontEnd,Mobile",KV3,TT,Internship,1000-1500
+"GT,QLTG,QLTG",TB,NHO,"BackEnd,FrontEnd",KV2,TT,Senior,1000-1500
+"LVN,LVN,TT",PB,LON,"BackEnd,FrontEnd",KV1,TT,Internship,1000-1500
+"GT,GT,",TB,LON,"BackEnd,Mobile",KV3,CB,Fresher,500-1000
+"GT,,TT",TB,NHO,FrontEnd,KV3,TT,Internship,500-1000
+"GT,GT,",TB,NHO,Back-end,KV2,KC,Junior,500-1000
+"GT,LVN,QLTG",PB,NHO,Back-end,KV2,DV,Internship,1000-1500
+"TT,LVN,QLTG",KPB,NHO,"BackEnd,Mobile",KV1,DV,Junior,1000-1500
+"GT,GT,GT",TB,TB,Mobile,KV3,CB,Senior,1000-1500
+"QLTG,LVN,",KPB,NHO,Mobile,KV2,CB,Fresher,500-1000
+"GT,,GT",PB,TB,"BackEnd,FrontEnd",KV1,DV,Junior,>1500
+"GT,QLTG,GT",KPB,TB,"Mobile,BackEnd,FrontEnd",KV3,CB,Junior,1000-1500
+"GT,GT,",KPB,LON,"BackEnd,FrontEnd",KV1,KC,Junior,1000-1500
+"TT,LVN,TT",PB,TB,Mobile,KV2,TT,Internship,1000-1500
+"TT,,",TB,TB,"Mobile,BackEnd,FrontEnd",KV3,TT,Fresher,500-1000
+"TT,,",TB,LON,"FrontEnd,Mobile",KV1,CB,Fresher,1000-1500
+"TT,TT,TT",KPB,NHO,"BackEnd,Mobile",KV1,TT,Junior,1000-1500
+"TT,TT,TT",PB,NHO,FrontEnd,KV1,DV,Senior,>1500
+"LVN,LVN,GT",PB,NHO,"BackEnd,Mobile",KV3,TT,Senior,>1500
+"LVN,LVN,GT",PB,NHO,Tester,KV2,KC,Senior,1000-1500
+"LVN,,GT",TB,LON,"FrontEnd,Mobile",KV1,DV,Junior,1000-1500
+"LVN,,TT",TB,LON,"FrontEnd,Mobile",KV2,CB,Junior,1000-1500
+"QLTG,,QLTG",KPB,TB,"Mobile,BackEnd,FrontEnd",KV2,KC,Senior,1000-1500
+"GT,LVN,QLTG",PB,NHO,"Mobile,BackEnd,FrontEnd",KV1,DV,Junior,>1500
+"LVN,,TT",TB,NHO,FrontEnd,KV3,DV,Fresher,500-1000
+"GT,TT,TT",TB,NHO,"FrontEnd,Mobile",KV1,DV,Senior,1000-1500
+"GT,,",PB,NHO,Mobile,KV2,CB,Internship,1000-1500
+",LVN,GT",TB,NHO,"BackEnd,Mobile",KV2,KC,Fresher,500-1000
+"QLTG,LVN,LVN",PB,NHO,"BackEnd,FrontEnd",KV2,KC,Senior,1000-1500
+",TT,",PB,NHO,FrontEnd,KV2,CB,Fresher,1000-1500
+"QLTG,QLTG,LVN",PB,TB,"BackEnd,FrontEnd",KV3,KC,Junior,1000-1500
+",QLTG,",PB,TB,Tester,KV3,KC,Junior,500-1000
+"TT,GT,",PB,TB,"BackEnd,FrontEnd",KV2,CB,Internship,1000-1500
+"TT,QLTG,TT",KPB,TB,"BackEnd,Mobile",KV3,KC,Internship,500-1000
+",TT,TT",PB,TB,"BackEnd,FrontEnd",KV1,DV,Senior,>1500
+"QLTG,,TT",TB,TB,Tester,KV3,KC,Junior,500-1000
+"QLTG,TT,LVN",TB,NHO,Tester,KV1,DV,Fresher,500-1000
+"GT,TT,LVN",PB,TB,Mobile,KV2,CB,Fresher,1000-1500
+",,GT",TB,LON,Tester,KV2,TT,Senior,1000-1500
+"TT,,QLTG",TB,NHO,Developer Option,KV3,TT,Senior,1000-1500
+",GT,GT",TB,TB,"FrontEnd,Mobile",KV2,KC,Fresher,500-1000
+"QLTG,,TT",PB,TB,Mobile,KV2,TT,Fresher,1000-1500
+"GT,TT,LVN",PB,TB,Mobile,KV2,KC,Senior,1000-1500
+"GT,QLTG,",TB,LON,Developer Option,KV3,KC,Senior,1000-1500
+"LVN,QLTG,LVN",TB,NHO,"BackEnd,Mobile",KV1,DV,Internship,500-1000
+"TT,GT,TT",TB,LON,"BackEnd,Mobile",KV2,TT,Junior,1000-1500
+"QLTG,LVN,GT",TB,NHO,Mobile,KV1,KC,Internship,500-1000
+"GT,LVN,QLTG",TB,TB,Developer Option,KV3,KC,Fresher,500-1000
+",LVN,GT",PB,TB,Mobile,KV2,CB,Fresher,1000-1500
+"QLTG,TT,GT",PB,NHO,Developer Option,KV2,KC,Fresher,500-1000
+"QLTG,QLTG,",TB,NHO,"Mobile,BackEnd,FrontEnd",KV3,CB,Internship,500-1000
+"TT,TT,LVN",PB,NHO,"FrontEnd,Mobile",KV3,KC,Internship,500-1000
+"QLTG,,TT",PB,NHO,"Mobile,BackEnd,FrontEnd",KV2,TT,Fresher,1000-1500
+",LVN,LVN",PB,TB,Back-end,KV3,KC,Junior,1000-1500
+",TT,QLTG",TB,NHO,Back-end,KV1,CB,Junior,1000-1500
+"TT,GT,LVN",PB,NHO,FrontEnd,KV1,TT,Senior,>1500
+"LVN,LVN,QLTG",TB,TB,"BackEnd,FrontEnd",KV3,KC,Fresher,500-1000
+"QLTG,TT,",TB,LON,FrontEnd,KV3,TT,Senior,1000-1500
+"TT,QLTG,LVN",PB,TB,Tester,KV1,KC,Fresher,1000-1500
+"GT,QLTG,LVN",PB,LON,"Mobile,BackEnd,FrontEnd",KV2,DV,Fresher,1000-1500
+"GT,,LVN",KPB,TB,"BackEnd,Mobile",KV3,CB,Junior,1000-1500
+"TT,QLTG,TT",TB,TB,"BackEnd,Mobile",KV1,KC,Junior,500-1000
+"LVN,QLTG,QLTG",TB,TB,Back-end,KV2,KC,Internship,500-1000
+"GT,GT,QLTG",PB,TB,"BackEnd,Mobile",KV1,CB,Internship,1000-1500
+",GT,",TB,LON,Developer Option,KV2,CB,Internship,500-1000
+"QLTG,LVN,TT",KPB,LON,Mobile,KV1,TT,Internship,1000-1500
+"TT,QLTG,QLTG",PB,LON,"BackEnd,FrontEnd",KV2,KC,Senior,>1500
+"GT,,QLTG",PB,NHO,Back-end,KV1,TT,Senior,>1500
+"LVN,QLTG,TT",TB,TB,FrontEnd,KV2,KC,Junior,500-1000
+"QLTG,QLTG,LVN",PB,NHO,Mobile,KV1,DV,Fresher,1000-1500
+"LVN,QLTG,LVN",PB,TB,Tester,KV3,CB,Fresher,1000-1500
+",GT,",PB,NHO,"BackEnd,FrontEnd",KV2,CB,Senior,>1500
+"LVN,GT,GT",PB,TB,Developer Option,KV3,TT,Fresher,1000-1500
+",,QLTG",PB,NHO,"FrontEnd,Mobile",KV2,TT,Fresher,1000-1500
+",LVN,",PB,TB,Developer Option,KV3,DV,Senior,>1500
+"LVN,LVN,",PB,TB,"FrontEnd,Mobile",KV2,KC,Internship,500-1000
+"LVN,LVN,",KPB,NHO,Developer Option,KV2,KC,Junior,500-1000
+"QLTG,GT,TT",TB,NHO,Tester,KV2,TT,Fresher,500-1000
+"QLTG,LVN,TT",PB,NHO,"Mobile,BackEnd,FrontEnd",KV2,TT,Junior,1000-1500
+"LVN,QLTG,GT",TB,TB,"BackEnd,Mobile",KV2,KC,Junior,500-1000
+"TT,LVN,",PB,NHO,"BackEnd,FrontEnd",KV1,KC,Senior,1000-1500
+"TT,QLTG,TT",PB,TB,Back-end,KV2,DV,Senior,>1500
+"TT,GT,QLTG",PB,NHO,"FrontEnd,Mobile",KV2,DV,Internship,1000-1500
+",,GT",PB,NHO,"Mobile,BackEnd,FrontEnd",KV2,DV,Junior,1000-1500
+"QLTG,LVN,TT",PB,TB,Mobile,KV1,KC,Internship,1000-1500
+",QLTG,",PB,TB,"BackEnd,FrontEnd",KV3,KC,Junior,1000-1500
+"QLTG,TT,",KPB,TB,Developer Option,KV1,CB,Internship,500-1000
+"GT,TT,LVN",PB,TB,Mobile,KV3,TT,Fresher,1000-1500
+",TT,TT",PB,NHO,Mobile,KV1,TT,Senior,>1500
+",QLTG,QLTG",PB,NHO,FrontEnd,KV2,KC,Senior,1000-1500
+"TT,LVN,TT",KPB,TB,Developer Option,KV3,KC,Junior,500-1000
+"GT,GT,QLTG",PB,NHO,"BackEnd,Mobile",KV2,KC,Junior,1000-1500
+"TT,QLTG,GT",PB,TB,"Mobile,BackEnd,FrontEnd",KV3,TT,Senior,>1500
+",,LVN",PB,TB,Developer Option,KV1,DV,Junior,1000-1500
+"LVN,LVN,GT",PB,TB,Developer Option,KV3,KC,Fresher,500-1000
+"GT,TT,GT",PB,TB,"Mobile,BackEnd,FrontEnd",KV3,KC,Junior,1000-1500
+"GT,QLTG,TT",PB,NHO,"FrontEnd,Mobile",KV3,CB,Fresher,1000-1500
+"LVN,LVN,QLTG",PB,NHO,Mobile,KV1,KC,Internship,1000-1500
+"GT,GT,LVN",PB,NHO,"BackEnd,Mobile",KV1,CB,Fresher,1000-1500
+"GT,LVN,",PB,TB,Tester,KV3,TT,Junior,1000-1500
+"QLTG,QLTG,GT",PB,NHO,Back-end,KV1,DV,Senior,>1500
+"TT,GT,QLTG",KPB,TB,Mobile,KV3,DV,Senior,1000-1500
+"TT,TT,TT",PB,NHO,"BackEnd,Mobile",KV1,KC,Internship,1000-1500
+"TT,TT,GT",PB,LON,Back-end,KV2,DV,Junior,>1500
+"LVN,QLTG,QLTG",TB,NHO,"FrontEnd,Mobile",KV1,TT,Internship,500-1000
+"GT,,",TB,NHO,Tester,KV1,DV,Junior,500-1000
+"QLTG,TT,QLTG",PB,NHO,"BackEnd,FrontEnd",KV3,KC,Junior,1000-1500
+"GT,TT,GT",TB,NHO,"BackEnd,Mobile",KV2,TT,Fresher,500-1000
+"TT,GT,TT",PB,NHO,"BackEnd,FrontEnd",KV2,CB,Internship,1000-1500
+",LVN,QLTG",TB,TB,Developer Option,KV1,CB,Senior,1000-1500
+"LVN,QLTG,LVN",PB,TB,"Mobile,BackEnd,FrontEnd",KV1,DV,Fresher,1000-1500
+",GT,LVN",PB,LON,Mobile,KV2,KC,Internship,1000-1500
+",GT,GT",TB,LON,Developer Option,KV2,CB,Senior,1000-1500
+"QLTG,GT,GT",KPB,TB,"BackEnd,Mobile",KV2,TT,Senior,1000-1500
+"LVN,,LVN",PB,NHO,Mobile,KV1,CB,Senior,>1500
+"LVN,TT,",TB,TB,"FrontEnd,Mobile",KV2,CB,Senior,1000-1500
+"GT,,GT",TB,TB,"BackEnd,FrontEnd",KV2,KC,Fresher,500-1000
+"QLTG,TT,",TB,TB,FrontEnd,KV1,TT,Junior,1000-1500
+"TT,,TT",TB,NHO,"Mobile,BackEnd,FrontEnd",KV2,KC,Junior,500-1000
+"GT,TT,GT",PB,NHO,"BackEnd,FrontEnd",KV2,CB,Internship,1000-1500
+",QLTG,QLTG",KPB,TB,Developer Option,KV3,KC,Fresher,500-1000
+"GT,,QLTG",TB,NHO,FrontEnd,KV2,CB,Fresher,500-1000
+"QLTG,QLTG,",TB,NHO,FrontEnd,KV1,KC,Fresher,500-1000
+"LVN,LVN,",PB,TB,"BackEnd,FrontEnd",KV1,TT,Internship,1000-1500
+",QLTG,QLTG",PB,NHO,"BackEnd,FrontEnd",KV3,TT,Junior,1000-1500
+",,QLTG",PB,TB,"BackEnd,FrontEnd",KV1,KC,Fresher,1000-1500
+",LVN,GT",PB,TB,"Mobile,BackEnd,FrontEnd",KV2,TT,Fresher,1000-1500
+"LVN,LVN,TT",PB,NHO,Developer Option,KV1,DV,Fresher,1000-1500
+"QLTG,LVN,GT",PB,NHO,"BackEnd,Mobile",KV2,CB,Internship,1000-1500
+"LVN,LVN,TT",TB,NHO,FrontEnd,KV2,DV,Junior,500-1000
+"TT,GT,GT",TB,NHO,"BackEnd,FrontEnd",KV1,TT,Senior,1000-1500
+"GT,,",PB,NHO,"BackEnd,Mobile",KV3,CB,Fresher,1000-1500
+"LVN,,TT",KPB,NHO,"BackEnd,Mobile",KV3,TT,Internship,500-1000
+"LVN,LVN,QLTG",TB,TB,FrontEnd,KV3,KC,Internship,0-500
+"TT,GT,",PB,TB,"FrontEnd,Mobile",KV3,DV,Junior,1000-1500
+"LVN,LVN,LVN",TB,NHO,"BackEnd,Mobile",KV1,KC,Junior,500-1000
+"QLTG,LVN,GT",KPB,NHO,Back-end,KV1,CB,Fresher,1000-1500
+",,TT",TB,TB,"Mobile,BackEnd,FrontEnd",KV1,CB,Junior,1000-1500
+"GT,TT,QLTG",PB,TB,FrontEnd,KV1,DV,Fresher,1000-1500
+"LVN,GT,TT",PB,NHO,"BackEnd,Mobile",KV3,KC,Fresher,500-1000
+"TT,GT,QLTG",TB,TB,FrontEnd,KV2,DV,Fresher,500-1000
+",,TT",TB,TB,Back-end,KV2,KC,Senior,1000-1500
+"TT,LVN,QLTG",TB,TB,Developer Option,KV3,CB,Junior,1000-1500
+",GT,",PB,TB,Mobile,KV2,KC,Internship,500-1000
+"GT,LVN,",TB,LON,Tester,KV1,DV,Junior,1000-1500
+"LVN,QLTG,TT",TB,LON,"BackEnd,FrontEnd",KV2,CB,Internship,500-1000
+"LVN,LVN,QLTG",KPB,NHO,Back-end,KV3,CB,Fresher,500-1000
+",LVN,GT",PB,TB,Developer Option,KV1,CB,Internship,1000-1500
+"LVN,TT,",PB,TB,Tester,KV3,DV,Senior,>1500
+"QLTG,TT,GT",TB,NHO,Mobile,KV3,DV,Junior,500-1000
+"TT,TT,GT",TB,NHO,"Mobile,BackEnd,FrontEnd",KV3,TT,Fresher,500-1000
+"QLTG,,TT",PB,NHO,"Mobile,BackEnd,FrontEnd",KV3,CB,Senior,>1500
+",QLTG,QLTG",PB,NHO,"FrontEnd,Mobile",KV2,TT,Senior,>1500
+",QLTG,TT",TB,NHO,"FrontEnd,Mobile",KV3,KC,Junior,500-1000
+",LVN,QLTG",PB,NHO,Tester,KV3,CB,Senior,1000-1500
+"TT,QLTG,GT",PB,NHO,"BackEnd,FrontEnd",KV2,KC,Junior,1000-1500
+"QLTG,LVN,LVN",PB,NHO,"Mobile,BackEnd,FrontEnd",KV3,DV,Internship,1000-1500
+"LVN,QLTG,TT",PB,NHO,"FrontEnd,Mobile",KV2,CB,Junior,1000-1500
+",QLTG,QLTG",PB,NHO,"BackEnd,Mobile",KV2,KC,Senior,1000-1500
+"GT,GT,TT",PB,TB,Back-end,KV1,KC,Senior,>1500
+",TT,TT",TB,LON,Back-end,KV3,KC,Fresher,500-1000
+"LVN,,GT",TB,NHO,"BackEnd,Mobile",KV2,TT,Internship,500-1000
+"GT,QLTG,LVN",TB,TB,FrontEnd,KV3,DV,Junior,500-1000
+"TT,LVN,QLTG",TB,NHO,Tester,KV1,DV,Junior,1000-1500
+"TT,LVN,",TB,NHO,Mobile,KV1,KC,Senior,1000-1500
+"LVN,,LVN",PB,LON,"FrontEnd,Mobile",KV3,KC,Internship,1000-1500
+"QLTG,TT,",PB,NHO,Mobile,KV1,TT,Senior,>1500
+"QLTG,GT,",TB,TB,Back-end,KV2,TT,Fresher,500-1000
+"TT,,LVN",PB,TB,Back-end,KV1,CB,Internship,1000-1500
+"TT,TT,LVN",PB,TB,FrontEnd,KV3,CB,Junior,1000-1500
+"QLTG,,LVN",KPB,NHO,"Mobile,BackEnd,FrontEnd",KV3,DV,Internship,500-1000
+"LVN,QLTG,TT",PB,NHO,Developer Option,KV2,DV,Senior,>1500
+"QLTG,TT,LVN",PB,LON,Tester,KV1,KC,Junior,1000-1500
+"TT,QLTG,QLTG",PB,TB,"FrontEnd,Mobile",KV2,KC,Junior,1000-1500
+"QLTG,TT,GT",TB,TB,"BackEnd,Mobile",KV1,DV,Internship,500-1000
+"TT,GT,GT",PB,NHO,"FrontEnd,Mobile",KV2,CB,Fresher,1000-1500
+"TT,,",TB,TB,"BackEnd,FrontEnd",KV1,KC,Senior,1000-1500
+"QLTG,,",TB,NHO,"BackEnd,Mobile",KV3,KC,Internship,0-500
+",GT,TT",PB,LON,Tester,KV1,TT,Fresher,1000-1500
+"GT,QLTG,TT",TB,NHO,Back-end,KV3,TT,Senior,1000-1500
+"GT,LVN,TT",PB,TB,"FrontEnd,Mobile",KV1,TT,Internship,1000-1500
+"QLTG,QLTG,QLTG",PB,TB,Tester,KV1,KC,Fresher,1000-1500
+"TT,QLTG,",PB,NHO,"BackEnd,FrontEnd",KV3,DV,Senior,>1500
+"GT,QLTG,TT",PB,TB,Back-end,KV2,DV,Junior,>1500
+",,QLTG",TB,NHO,Developer Option,KV3,TT,Senior,1000-1500
+"LVN,LVN,",PB,TB,"BackEnd,Mobile",KV2,TT,Internship,1000-1500
+"GT,TT,GT",PB,TB,Tester,KV2,DV,Internship,1000-1500
+"LVN,TT,TT",KPB,LON,Back-end,KV1,TT,Internship,1000-1500
+"GT,LVN,QLTG",TB,NHO,Tester,KV2,TT,Senior,1000-1500
+"QLTG,TT,TT",PB,NHO,Developer Option,KV1,DV,Senior,>1500
+"QLTG,GT,TT",TB,NHO,Mobile,KV1,DV,Internship,500-1000
+",QLTG,GT",PB,NHO,FrontEnd,KV1,DV,Senior,>1500
+",LVN,TT",PB,NHO,"BackEnd,Mobile",KV2,TT,Fresher,1000-1500
+"TT,LVN,TT",PB,NHO,"BackEnd,FrontEnd",KV3,CB,Internship,1000-1500
+"QLTG,GT,QLTG",PB,NHO,Back-end,KV1,KC,Fresher,1000-1500
+"QLTG,GT,QLTG",PB,TB,Developer Option,KV2,KC,Senior,1000-1500
+"GT,,QLTG",PB,NHO,FrontEnd,KV3,CB,Internship,1000-1500
+"TT,TT,QLTG",TB,TB,Mobile,KV2,DV,Internship,500-1000
+"GT,QLTG,GT",PB,NHO,Back-end,KV2,TT,Internship,1000-1500
+"QLTG,,LVN",PB,NHO,Mobile,KV3,KC,Internship,500-1000
+"QLTG,LVN,QLTG",TB,NHO,Back-end,KV2,DV,Internship,500-1000
+",LVN,QLTG",TB,NHO,Tester,KV3,TT,Senior,1000-1500
+",LVN,GT",PB,TB,Back-end,KV1,CB,Junior,>1500
+"LVN,GT,QLTG",PB,NHO,Back-end,KV3,DV,Fresher,1000-1500
+"LVN,TT,",PB,NHO,FrontEnd,KV2,CB,Internship,1000-1500
+"LVN,,GT",PB,NHO,Back-end,KV2,DV,Internship,1000-1500
+",LVN,GT",PB,LON,"Mobile,BackEnd,FrontEnd",KV2,KC,Junior,1000-1500
+"QLTG,TT,LVN",PB,TB,"Mobile,BackEnd,FrontEnd",KV3,CB,Internship,1000-1500
+"GT,QLTG,TT",TB,TB,"Mobile,BackEnd,FrontEnd",KV1,KC,Fresher,500-1000
+"LVN,TT,QLTG",PB,TB,Mobile,KV3,KC,Fresher,500-1000
+"QLTG,LVN,GT",TB,NHO,"BackEnd,FrontEnd",KV3,KC,Internship,0-500
+"TT,GT,QLTG",PB,TB,"Mobile,BackEnd,FrontEnd",KV1,TT,Senior,>1500
+"TT,LVN,LVN",TB,TB,"Mobile,BackEnd,FrontEnd",KV3,TT,Junior,1000-1500
+"GT,TT,TT",PB,NHO,"FrontEnd,Mobile",KV1,TT,Junior,>1500
+"TT,GT,LVN",PB,TB,Mobile,KV2,DV,Internship,1000-1500
+"GT,TT,GT",TB,LON,"FrontEnd,Mobile",KV1,DV,Fresher,1000-1500
+"LVN,QLTG,LVN",PB,NHO,Back-end,KV2,DV,Senior,>1500
+"LVN,GT,",PB,NHO,FrontEnd,KV1,DV,Fresher,1000-1500
+"LVN,GT,QLTG",TB,TB,Mobile,KV1,CB,Internship,500-1000
+"LVN,QLTG,GT",PB,TB,FrontEnd,KV1,CB,Internship,1000-1500
+"GT,LVN,TT",PB,TB,"BackEnd,FrontEnd",KV3,KC,Senior,1000-1500
+"LVN,QLTG,",PB,TB,Developer Option,KV1,CB,Fresher,1000-1500
+"GT,TT,GT",PB,NHO,Developer Option,KV1,CB,Fresher,1000-1500
+"QLTG,,",TB,TB,Back-end,KV2,TT,Senior,1000-1500
+",QLTG,TT",PB,TB,"Mobile,BackEnd,FrontEnd",KV1,KC,Internship,1000-1500
+"QLTG,GT,QLTG",TB,TB,Back-end,KV3,TT,Internship,500-1000
+"QLTG,QLTG,QLTG",PB,TB,"Mobile,BackEnd,FrontEnd",KV3,TT,Fresher,1000-1500
+"QLTG,QLTG,",TB,TB,"BackEnd,Mobile",KV1,TT,Senior,1000-1500
+"QLTG,QLTG,LVN",PB,TB,Mobile,KV1,CB,Junior,>1500
+"TT,LVN,QLTG",PB,NHO,Tester,KV3,TT,Fresher,1000-1500
+"TT,QLTG,",TB,LON,Tester,KV2,CB,Internship,500-1000
+"QLTG,,QLTG",PB,LON,"FrontEnd,Mobile",KV3,CB,Internship,1000-1500
+",,LVN",PB,NHO,Mobile,KV1,CB,Senior,>1500
+"GT,,GT",PB,NHO,"FrontEnd,Mobile",KV2,DV,Junior,1000-1500
+"TT,TT,QLTG",TB,NHO,Tester,KV2,CB,Senior,1000-1500
+"LVN,TT,GT",PB,TB,Mobile,KV3,CB,Senior,>1500
+"LVN,TT,",PB,NHO,"BackEnd,FrontEnd",KV2,TT,Senior,>1500
+",LVN,TT",PB,NHO,"FrontEnd,Mobile",KV3,DV,Senior,>1500
+"GT,,",PB,TB,"Mobile,BackEnd,FrontEnd",KV2,KC,Internship,500-1000
+"TT,TT,LVN",KPB,NHO,"FrontEnd,Mobile",KV1,DV,Fresher,500-1000
+",,LVN",PB,NHO,"BackEnd,Mobile",KV3,KC,Senior,1000-1500
+",GT,TT",PB,LON,Back-end,KV2,DV,Senior,>1500
+"TT,QLTG,GT",PB,TB,FrontEnd,KV2,KC,Junior,1000-1500
+"LVN,QLTG,QLTG",TB,LON,FrontEnd,KV1,CB,Internship,1000-1500
+"TT,TT,LVN",TB,NHO,"Mobile,BackEnd,FrontEnd",KV3,CB,Internship,500-1000
+"GT,GT,GT",PB,NHO,Mobile,KV3,KC,Senior,1000-1500
+"TT,TT,TT",PB,NHO,"BackEnd,FrontEnd",KV3,DV,Junior,1000-1500
+"QLTG,QLTG,LVN",PB,NHO,Mobile,KV1,CB,Fresher,1000-1500
+"QLTG,LVN,GT",PB,TB,"BackEnd,Mobile",KV1,DV,Internship,1000-1500
+"QLTG,LVN,",TB,NHO,"FrontEnd,Mobile",KV3,DV,Senior,1000-1500
+"GT,GT,QLTG",TB,NHO,FrontEnd,KV1,TT,Senior,1000-1500
+",QLTG,LVN",PB,LON,FrontEnd,KV2,TT,Fresher,1000-1500
+"LVN,TT,GT",PB,TB,Developer Option,KV1,KC,Junior,1000-1500
+"TT,GT,QLTG",TB,TB,"BackEnd,Mobile",KV3,KC,Senior,1000-1500
+"QLTG,TT,LVN",PB,NHO,"FrontEnd,Mobile",KV1,DV,Fresher,1000-1500
+",QLTG,",KPB,TB,FrontEnd,KV1,DV,Senior,1000-1500
+"GT,LVN,GT",PB,NHO,"FrontEnd,Mobile",KV2,KC,Fresher,500-1000
+"GT,GT,QLTG",PB,TB,FrontEnd,KV2,TT,Fresher,1000-1500
+"QLTG,LVN,GT",TB,NHO,"FrontEnd,Mobile",KV1,CB,Senior,1000-1500
+"TT,LVN,QLTG",PB,TB,Developer Option,KV3,DV,Fresher,1000-1500
+"TT,TT,QLTG",PB,NHO,Tester,KV1,TT,Junior,1000-1500
+",GT,LVN",PB,NHO,Mobile,KV1,DV,Fresher,1000-1500
+"GT,GT,LVN",PB,TB,FrontEnd,KV2,DV,Internship,1000-1500
+"QLTG,TT,LVN",PB,NHO,"FrontEnd,Mobile",KV1,KC,Junior,1000-1500
+"QLTG,TT,GT",PB,TB,FrontEnd,KV2,DV,Senior,>1500
+",,LVN",TB,NHO,Tester,KV1,CB,Senior,1000-1500
+"QLTG,TT,TT",TB,TB,"FrontEnd,Mobile",KV3,DV,Internship,500-1000
+"LVN,TT,QLTG",TB,NHO,Back-end,KV3,KC,Fresher,500-1000
+"QLTG,LVN,LVN",PB,NHO,FrontEnd,KV3,KC,Internship,500-1000
+"TT,QLTG,TT",PB,NHO,"BackEnd,FrontEnd",KV2,CB,Internship,1000-1500
+"GT,GT,TT",TB,TB,"BackEnd,Mobile",KV3,TT,Internship,500-1000
+"QLTG,QLTG,",TB,TB,"BackEnd,Mobile",KV2,KC,Fresher,500-1000
+"QLTG,QLTG,QLTG",PB,NHO,"BackEnd,Mobile",KV3,CB,Internship,1000-1500
+"GT,TT,GT",PB,NHO,Mobile,KV1,KC,Senior,>1500
+"QLTG,,GT",PB,TB,"BackEnd,FrontEnd",KV3,KC,Senior,1000-1500
+"TT,,QLTG",PB,LON,Mobile,KV2,DV,Junior,>1500
+"GT,,TT",PB,NHO,Tester,KV3,DV,Senior,1000-1500
+"GT,,LVN",PB,TB,Tester,KV3,CB,Internship,1000-1500
+"GT,LVN,LVN",PB,TB,"BackEnd,FrontEnd",KV2,DV,Fresher,1000-1500
+"GT,QLTG,GT",PB,TB,"Mobile,BackEnd,FrontEnd",KV1,KC,Junior,1000-1500
+",TT,QLTG",TB,NHO,Developer Option,KV3,KC,Fresher,0-500
+"GT,QLTG,GT",PB,TB,Mobile,KV2,KC,Senior,1000-1500
+"TT,GT,QLTG",PB,LON,Tester,KV3,DV,Junior,1000-1500
+"QLTG,TT,LVN",TB,TB,"BackEnd,FrontEnd",KV1,KC,Fresher,500-1000
+",TT,",PB,TB,Developer Option,KV1,DV,Senior,>1500
+",TT,",PB,NHO,"FrontEnd,Mobile",KV1,CB,Fresher,1000-1500
+",GT,GT",PB,LON,FrontEnd,KV2,CB,Internship,1000-1500
+"QLTG,QLTG,TT",PB,TB,"BackEnd,Mobile",KV1,CB,Internship,1000-1500
+"QLTG,QLTG,QLTG",PB,NHO,FrontEnd,KV1,CB,Internship,1000-1500
+"GT,QLTG,GT",PB,NHO,Back-end,KV3,CB,Internship,1000-1500
+"GT,LVN,",TB,NHO,Back-end,KV2,DV,Senior,1000-1500
+"QLTG,TT,TT",PB,NHO,"BackEnd,FrontEnd",KV2,TT,Internship,1000-1500
+"LVN,,",PB,TB,"Mobile,BackEnd,FrontEnd",KV1,CB,Fresher,1000-1500
+"TT,TT,GT",TB,TB,Back-end,KV1,DV,Internship,500-1000
+"LVN,LVN,QLTG",PB,NHO,Back-end,KV3,DV,Fresher,1000-1500
+"QLTG,,TT",PB,TB,Tester,KV3,DV,Senior,>1500
+",TT,TT",PB,NHO,"Mobile,BackEnd,FrontEnd",KV1,KC,Fresher,1000-1500
+"LVN,,TT",PB,NHO,Tester,KV1,CB,Junior,1000-1500
+"LVN,QLTG,LVN",PB,LON,Back-end,KV3,TT,Fresher,1000-1500
+"TT,TT,QLTG",KPB,NHO,Back-end,KV1,TT,Senior,1000-1500
+"LVN,QLTG,GT",PB,TB,Back-end,KV1,KC,Internship,1000-1500
+",GT,",TB,LON,FrontEnd,KV3,CB,Fresher,500-1000
+"TT,GT,",KPB,NHO,FrontEnd,KV1,DV,Fresher,500-1000
+"QLTG,QLTG,LVN",TB,NHO,"Mobile,BackEnd,FrontEnd",KV2,DV,Junior,1000-1500
+"QLTG,LVN,QLTG",KPB,NHO,"FrontEnd,Mobile",KV1,DV,Senior,1000-1500
+"GT,,LVN",KPB,TB,"FrontEnd,Mobile",KV1,KC,Fresher,500-1000
+",QLTG,QLTG",PB,NHO,"BackEnd,Mobile",KV1,KC,Senior,1000-1500
+"LVN,QLTG,LVN",TB,NHO,"BackEnd,FrontEnd",KV1,DV,Fresher,500-1000
+"TT,QLTG,",KPB,TB,"FrontEnd,Mobile",KV2,KC,Junior,500-1000
+"TT,,GT",PB,TB,Developer Option,KV1,KC,Senior,>1500
+"TT,GT,TT",PB,NHO,"BackEnd,Mobile",KV1,CB,Senior,>1500
+"LVN,TT,TT",TB,TB,"BackEnd,FrontEnd",KV2,TT,Senior,1000-1500
+"GT,,QLTG",PB,NHO,"BackEnd,FrontEnd",KV1,CB,Junior,1000-1500
+"GT,QLTG,LVN",PB,NHO,FrontEnd,KV2,TT,Fresher,1000-1500
+",GT,TT",PB,TB,"Mobile,BackEnd,FrontEnd",KV3,CB,Fresher,1000-1500
+"QLTG,LVN,GT",PB,TB,"BackEnd,Mobile",KV3,KC,Fresher,500-1000
+"QLTG,TT,LVN",PB,TB,"Mobile,BackEnd,FrontEnd",KV2,TT,Fresher,1000-1500
+"LVN,TT,LVN",PB,TB,Developer Option,KV1,TT,Junior,>1500
+"QLTG,GT,LVN",TB,NHO,Tester,KV2,CB,Fresher,500-1000
+",TT,",PB,TB,"BackEnd,Mobile",KV2,TT,Senior,>1500
+"LVN,QLTG,GT",PB,NHO,Tester,KV1,KC,Internship,500-1000
+"LVN,QLTG,QLTG",TB,NHO,"Mobile,BackEnd,FrontEnd",KV2,CB,Internship,500-1000
+"LVN,GT,QLTG",PB,NHO,"BackEnd,Mobile",KV1,DV,Fresher,1000-1500
+"QLTG,LVN,QLTG",PB,NHO,"BackEnd,FrontEnd",KV2,DV,Junior,1000-1500
+"LVN,GT,GT",KPB,TB,Developer Option,KV2,KC,Fresher,500-1000
+",,",PB,TB,Mobile,KV2,KC,Internship,500-1000
+"LVN,QLTG,TT",PB,LON,"Mobile,BackEnd,FrontEnd",KV1,TT,Fresher,>1500
+"LVN,QLTG,QLTG",PB,NHO,"Mobile,BackEnd,FrontEnd",KV1,CB,Junior,>1500
+"TT,GT,QLTG",TB,TB,Tester,KV3,KC,Junior,500-1000
+",QLTG,",PB,TB,"BackEnd,FrontEnd",KV2,CB,Fresher,1000-1500
+"GT,,LVN",TB,NHO,"Mobile,BackEnd,FrontEnd",KV3,TT,Senior,1000-1500
+"GT,,",TB,TB,Tester,KV3,TT,Internship,500-1000
+"QLTG,,",TB,TB,"BackEnd,Mobile",KV2,KC,Junior,500-1000
+"GT,,",TB,TB,Back-end,KV1,CB,Senior,1000-1500
+",,QLTG",PB,LON,"FrontEnd,Mobile",KV3,DV,Fresher,1000-1500
+"LVN,TT,",PB,LON,"BackEnd,FrontEnd",KV2,TT,Junior,>1500
+"TT,GT,QLTG",PB,NHO,Back-end,KV1,TT,Senior,>1500
+",GT,LVN",PB,NHO,Mobile,KV3,TT,Junior,1000-1500
+"LVN,GT,",PB,NHO,Mobile,KV2,CB,Fresher,1000-1500
+"TT,LVN,QLTG",PB,NHO,"BackEnd,Mobile",KV2,TT,Junior,1000-1500
+"GT,LVN,LVN",PB,NHO,FrontEnd,KV2,TT,Fresher,1000-1500
+"LVN,GT,GT",PB,TB,"FrontEnd,Mobile",KV3,TT,Senior,>1500
+"TT,LVN,QLTG",TB,NHO,"FrontEnd,Mobile",KV3,CB,Junior,500-1000
+"LVN,TT,TT",PB,NHO,Mobile,KV1,TT,Junior,>1500
+",TT,LVN",TB,NHO,"BackEnd,Mobile",KV2,CB,Internship,500-1000
+"TT,,GT",TB,TB,"Mobile,BackEnd,FrontEnd",KV3,TT,Internship,500-1000
+"TT,GT,LVN",PB,LON,FrontEnd,KV3,CB,Senior,>1500
+"GT,GT,LVN",TB,TB,"BackEnd,FrontEnd",KV2,TT,Senior,1000-1500
+"TT,LVN,GT",PB,NHO,"BackEnd,FrontEnd",KV2,TT,Senior,>1500
+"TT,LVN,TT",TB,TB,Developer Option,KV3,CB,Fresher,500-1000
+"GT,QLTG,TT",PB,TB,Developer Option,KV2,TT,Senior,>1500
+",TT,GT",PB,TB,"FrontEnd,Mobile",KV1,KC,Junior,1000-1500
+"TT,,GT",PB,LON,"Mobile,BackEnd,FrontEnd",KV2,CB,Junior,>1500
+"QLTG,LVN,GT",PB,NHO,Tester,KV2,CB,Senior,>1500
+"QLTG,TT,TT",TB,NHO,Back-end,KV2,KC,Internship,500-1000
+"LVN,QLTG,LVN",PB,NHO,"Mobile,BackEnd,FrontEnd",KV2,KC,Fresher,500-1000
+",QLTG,LVN",PB,NHO,Mobile,KV2,KC,Senior,1000-1500
+"TT,LVN,QLTG",PB,LON,Back-end,KV1,KC,Fresher,1000-1500
+"TT,QLTG,QLTG",TB,NHO,"Mobile,BackEnd,FrontEnd",KV1,TT,Junior,1000-1500
+"LVN,LVN,TT",PB,TB,"Mobile,BackEnd,FrontEnd",KV3,CB,Internship,1000-1500
+",LVN,TT",PB,NHO,"FrontEnd,Mobile",KV3,KC,Senior,1000-1500
+"LVN,,GT",TB,LON,"FrontEnd,Mobile",KV2,CB,Junior,1000-1500
+"GT,QLTG,GT",TB,NHO,"BackEnd,FrontEnd",KV1,DV,Fresher,500-1000
+"QLTG,TT,QLTG",PB,TB,"BackEnd,Mobile",KV3,KC,Internship,500-1000
+"QLTG,TT,QLTG",TB,NHO,Tester,KV2,DV,Senior,1000-1500
+"GT,LVN,LVN",TB,NHO,Mobile,KV2,CB,Fresher,500-1000
+"QLTG,LVN,QLTG",TB,LON,Back-end,KV1,CB,Senior,>1500
+"TT,,TT",PB,TB,"BackEnd,Mobile",KV2,CB,Junior,1000-1500
+"LVN,GT,GT",PB,TB,Tester,KV3,TT,Fresher,1000-1500
+"QLTG,LVN,QLTG",KPB,NHO,"BackEnd,Mobile",KV1,TT,Internship,500-1000
+"LVN,LVN,TT",KPB,LON,FrontEnd,KV3,CB,Senior,1000-1500
+"TT,,",TB,TB,Tester,KV2,CB,Fresher,500-1000
+"GT,QLTG,",PB,TB,Mobile,KV2,CB,Internship,1000-1500
+",LVN,GT",TB,TB,Back-end,KV2,CB,Internship,500-1000
+",TT,GT",PB,LON,Developer Option,KV3,KC,Fresher,1000-1500
+"TT,GT,TT",PB,NHO,"BackEnd,Mobile",KV2,DV,Senior,>1500
+"QLTG,TT,",PB,NHO,"Mobile,BackEnd,FrontEnd",KV3,KC,Fresher,500-1000
+"QLTG,QLTG,",PB,TB,Developer Option,KV3,TT,Fresher,1000-1500
+"LVN,TT,QLTG",PB,NHO,Mobile,KV1,CB,Fresher,1000-1500
+"TT,TT,LVN",PB,NHO,"FrontEnd,Mobile",KV3,DV,Fresher,1000-1500
+"QLTG,TT,LVN",PB,NHO,Developer Option,KV3,KC,Internship,500-1000
+",TT,",PB,LON,"FrontEnd,Mobile",KV2,KC,Senior,>1500
+",,TT",TB,LON,"BackEnd,FrontEnd",KV2,CB,Fresher,500-1000
+",QLTG,TT",PB,LON,Tester,KV1,KC,Junior,1000-1500
+"LVN,,LVN",TB,NHO,Mobile,KV2,TT,Internship,500-1000
+",LVN,GT",PB,TB,"BackEnd,FrontEnd",KV2,TT,Fresher,1000-1500
+",TT,TT",PB,NHO,Tester,KV1,CB,Senior,>1500
+"LVN,QLTG,LVN",TB,TB,"Mobile,BackEnd,FrontEnd",KV3,DV,Junior,1000-1500
+"LVN,TT,QLTG",PB,NHO,Tester,KV3,KC,Fresher,500-1000
+"TT,GT,GT",PB,NHO,Mobile,KV3,KC,Internship,500-1000
+",GT,LVN",KPB,TB,"BackEnd,Mobile",KV3,DV,Senior,1000-1500
+"GT,QLTG,TT",KPB,TB,Developer Option,KV1,DV,Internship,500-1000
+"LVN,TT,TT",TB,LON,"Mobile,BackEnd,FrontEnd",KV3,TT,Senior,1000-1500
+",,QLTG",PB,NHO,"BackEnd,FrontEnd",KV3,DV,Internship,1000-1500
+",TT,",KPB,TB,"Mobile,BackEnd,FrontEnd",KV3,DV,Senior,1000-1500
+"LVN,TT,",PB,TB,FrontEnd,KV2,TT,Fresher,1000-1500
+"LVN,GT,LVN",PB,NHO,Back-end,KV1,KC,Senior,>1500
+"LVN,QLTG,TT",PB,TB,"BackEnd,FrontEnd",KV3,CB,Junior,1000-1500
+",QLTG,LVN",PB,NHO,Back-end,KV3,TT,Internship,1000-1500
+"GT,,GT",PB,NHO,Back-end,KV2,TT,Senior,>1500
+"GT,QLTG,",TB,TB,"FrontEnd,Mobile",KV3,TT,Senior,1000-1500
+"LVN,GT,TT",PB,NHO,"FrontEnd,Mobile",KV3,DV,Internship,1000-1500
+",,",TB,NHO,"Mobile,BackEnd,FrontEnd",KV3,TT,Senior,1000-1500
+"QLTG,GT,GT",TB,NHO,FrontEnd,KV2,TT,Fresher,500-1000
+"QLTG,QLTG,LVN",PB,NHO,Mobile,KV1,TT,Fresher,1000-1500
+"TT,QLTG,GT",TB,NHO,"FrontEnd,Mobile",KV3,TT,Senior,1000-1500
+"GT,TT,LVN",PB,TB,Tester,KV2,DV,Internship,1000-1500
+"QLTG,GT,LVN",PB,TB,Tester,KV2,CB,Junior,1000-1500
+"TT,QLTG,LVN",PB,TB,Back-end,KV3,CB,Internship,1000-1500
+"GT,TT,GT",PB,LON,FrontEnd,KV1,CB,Fresher,1000-1500
+",TT,QLTG",TB,NHO,Developer Option,KV2,KC,Senior,500-1000
+"GT,TT,LVN",PB,NHO,Back-end,KV2,CB,Senior,>1500
+"GT,LVN,",PB,LON,Mobile,KV2,KC,Internship,1000-1500
+",TT,QLTG",PB,LON,FrontEnd,KV1,CB,Junior,>1500
+"TT,TT,",PB,TB,FrontEnd,KV2,DV,Junior,1000-1500
+"TT,TT,LVN",TB,TB,"BackEnd,Mobile",KV1,KC,Internship,500-1000
+"GT,TT,LVN",TB,TB,Tester,KV1,CB,Internship,500-1000
+"QLTG,QLTG,QLTG",PB,NHO,Tester,KV3,DV,Senior,>1500
+"LVN,LVN,",PB,TB,"BackEnd,FrontEnd",KV3,CB,Senior,>1500
+",LVN,LVN",PB,TB,Mobile,KV3,TT,Senior,>1500
+"TT,QLTG,LVN",TB,TB,"BackEnd,FrontEnd",KV3,KC,Fresher,500-1000
+",TT,LVN",PB,LON,"BackEnd,Mobile",KV3,KC,Fresher,1000-1500
+"QLTG,QLTG,",PB,NHO,"FrontEnd,Mobile",KV1,KC,Fresher,1000-1500
+"GT,GT,TT",TB,NHO,"BackEnd,FrontEnd",KV3,KC,Junior,500-1000
+"LVN,LVN,QLTG",PB,TB,Mobile,KV2,CB,Senior,>1500
+"TT,TT,QLTG",PB,NHO,Back-end,KV3,CB,Senior,>1500
+"GT,TT,TT",PB,TB,Developer Option,KV2,DV,Senior,>1500
+"QLTG,LVN,LVN",PB,NHO,Developer Option,KV3,DV,Internship,1000-1500
+"TT,GT,",TB,NHO,Mobile,KV1,KC,Senior,1000-1500
+"LVN,QLTG,LVN",PB,NHO,Back-end,KV2,CB,Internship,1000-1500
+",TT,",PB,NHO,FrontEnd,KV3,KC,Junior,500-1000
+"LVN,,LVN",KPB,NHO,Mobile,KV2,DV,Fresher,500-1000
+"QLTG,LVN,QLTG",TB,TB,FrontEnd,KV2,CB,Senior,1000-1500
+"TT,QLTG,TT",PB,NHO,Mobile,KV2,DV,Senior,>1500
+"QLTG,TT,TT",PB,TB,"Mobile,BackEnd,FrontEnd",KV1,KC,Internship,1000-1500
