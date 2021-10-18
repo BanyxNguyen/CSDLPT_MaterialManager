@@ -62,7 +62,7 @@ public class JobDecisionTree {
 
     public JobDecisionTree(String fileName) {
         if (fileName == null || fileName.isEmpty()) {
-            fileName = "./Data/DataMini.csv";
+            fileName = "./Data/DataMining.csv";
         }
         CSVLoader loader = new CSVLoader();
 
@@ -77,8 +77,8 @@ public class JobDecisionTree {
 
     public J48 performTraining() {
         J48 j48 = new J48();
+        //  Use unpruned tree. -U
         String[] options = {"-U"};
-//        Use unpruned tree. -U
         try {
             j48.setOptions(options);
             j48.buildClassifier(trainingData);
