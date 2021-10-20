@@ -11,6 +11,7 @@ import java.util.Hashtable;
 import java.util.Map;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
+import javax.swing.JSpinner;
 import weka.core.Attribute;
 import weka.core.DenseInstance;
 import weka.core.Instance;
@@ -23,8 +24,10 @@ public class Main extends javax.swing.JFrame {
 
     public static Map<String, ContainerMap> Attributes = new Hashtable<>();
     public static Map<String, String> Jobs = new Hashtable<>();
+    private final JSpinner[][] ListSpinner;
 
     private class ContainerMap {
+
         public ContainerMap(JComboBox<String> cmb, String[] s) {
             Comb = cmb;
             Value = s;
@@ -32,11 +35,12 @@ public class Main extends javax.swing.JFrame {
         public JComboBox<String> Comb;
         public String[] Value;
     }
-    
+
     /**
      * Creates new form Main2
      */
     public Main(JobDecisionTree tree, JFrame parent) {
+        
         _Tree = tree;
         _Parent = parent;
         initComponents();
@@ -69,6 +73,13 @@ public class Main extends javax.swing.JFrame {
             "tuongtac"
         }));
         
+        this.ListSpinner = new JSpinner[][]{
+            {spnToan,spnLy, spnHoa},
+            {spnToan, spnHoa,spnSinh},
+            {spnVan, spnSu, spnDia},
+            {spnToan,spnAnh,spnVan},
+        };
+
         InitJobs();
         _Parent.setVisible(false);
         System.out.println(_Tree.performTraining());
@@ -76,8 +87,8 @@ public class Main extends javax.swing.JFrame {
 
     private JobDecisionTree _Tree;
     private JFrame _Parent;
-    
-    private void InitJobs () {
+
+    private void InitJobs() {
         Main.Jobs.put("CNTT", "Công Nghệ Thông Tin");
         Main.Jobs.put("DTU", "Điện Tử");
         Main.Jobs.put("KTS", "Kiến Trúc Sư");
@@ -92,12 +103,24 @@ public class Main extends javax.swing.JFrame {
         return (p0 + p1 + p2) / 3;
     }
 
+    private float _parseFloat(Object num) {
+        if (num != null) {
+            return Float.parseFloat(num.toString());
+        } else {
+            return 0F;
+
+        }
+    }
+    
     private float[] GetPointABCD() {
         float[] temps = new float[4];
-        temps[0] = ((float) spnToan.getValue() + (float) spnLy.getValue() + (float) spnHoa.getValue()) / 3;
-        temps[1] = ((float) spnToan.getValue() + (float) spnHoa.getValue() + (float) spnSinh.getValue()) / 3;
-        temps[2] = ((float) spnVan.getValue() + (float) spnSu.getValue() + (float) spnDia.getValue()) / 3;
-        temps[3] = ((float) spnToan.getValue() + (float) spnVan.getValue() + (float) spnAnh.getValue()) / 3;
+        Integer index = 0;
+        for (JSpinner[] items : ListSpinner) {
+            for (JSpinner item : items) {
+                temps[index] += _parseFloat(item.getValue())/3;
+            }
+            index++;
+        }
         return temps;
     }
 
@@ -180,6 +203,27 @@ public class Main extends javax.swing.JFrame {
         return ii;
     }
 
+    private void ClearAllBox() {
+        spnToan.setValue(0F);
+        spnLy.setValue(0F);
+        spnHoa.setValue(0F);
+        spnAnh.setValue(0F);
+        spnVan.setValue(0F);
+        spnSinh.setValue(0F);
+        spnSu.setValue(0F);
+        spnDia.setValue(0F);
+
+        spnTanTam.setValue(0);
+        spnTuongTac.setValue(0);
+        spnCoiMo.setValue(0);
+
+        cbGioiTinh.setSelectedIndex(0);
+        cbXuHuong.setSelectedIndex(0);
+        cbQDLC.setSelectedIndex(0);
+        cbNangKhieu.setSelectedIndex(0);
+        cbUocMo.setSelectedIndex(0);
+    }
+
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -225,6 +269,7 @@ public class Main extends javax.swing.JFrame {
         spnCoiMo = new javax.swing.JSpinner();
         jPanel1 = new javax.swing.JPanel();
         lbJob = new javax.swing.JLabel();
+        btnReset = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -374,6 +419,14 @@ public class Main extends javax.swing.JFrame {
                 .addComponent(lbJob, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
+        btnReset.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        btnReset.setText("Cài lại");
+        btnReset.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnResetActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -454,7 +507,7 @@ public class Main extends javax.swing.JFrame {
                                         .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addComponent(spnTuongTac, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 91, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 95, Short.MAX_VALUE)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(34, 34, 34)
@@ -471,7 +524,9 @@ public class Main extends javax.swing.JFrame {
                                         .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addComponent(spnCoiMo, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                        .addContainerGap(107, Short.MAX_VALUE))))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 47, Short.MAX_VALUE)
+                        .addComponent(btnReset, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(27, 27, 27))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -479,9 +534,13 @@ public class Main extends javax.swing.JFrame {
                 .addGap(26, 26, 26)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(cbXuHuong, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(cbXuHuong, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(2, 2, 2)
+                                .addComponent(btnReset, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -558,26 +617,31 @@ public class Main extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnRunActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRunActionPerformed
-        try {
-            Instance kk = GetTestInstance();
-            String job = _Tree.trainingData.attribute(12).value(_Tree.TestData(kk));
-            System.out.println(job);
-            String show = Main.Jobs.get(job);
-            lbJob.setText(show);
-        } catch (Exception e) {
-            lbJob.setText("Không xác định");
-            System.out.println(e.toString());
-        }
-        
-        
+//        try {
+        Instance kk = GetTestInstance();
+        String job = _Tree.trainingData.attribute(12).value(_Tree.TestData(kk));
+        System.out.println(job);
+        String show = Main.Jobs.get(job);
+        lbJob.setText(show);
+//        } catch (Exception e) {
+//            lbJob.setText("Không xác định");
+//            System.out.println(e.toString());
+//        }
+
+
     }//GEN-LAST:event_btnRunActionPerformed
 
     private void formWindowClosing(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosing
         _Parent.setVisible(true);
     }//GEN-LAST:event_formWindowClosing
 
+    private void btnResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnResetActionPerformed
+        ClearAllBox();
+    }//GEN-LAST:event_btnResetActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnReset;
     private javax.swing.JButton btnRun;
     private javax.swing.JComboBox<String> cbGioiTinh;
     private javax.swing.JComboBox<String> cbNangKhieu;
