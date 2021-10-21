@@ -99,10 +99,6 @@ public class Main extends javax.swing.JFrame {
         Main.Jobs.put("TNHAC", "Thanh Nhạc");
     }
 
-    private float AveragePoint(float p0, float p1, float p2) {
-        return (p0 + p1 + p2) / 3;
-    }
-
     private float _parseFloat(Object num) {
         if (num != null) {
             return Float.parseFloat(num.toString());
@@ -128,20 +124,16 @@ public class Main extends javax.swing.JFrame {
         float res = 0F;
         switch (name) {
             case "KhoiA": {
-                res = ps[0];
-                break;
+                res = ps[0]; break;
             }
             case "KhoiB": {
-                res = ps[1];
-                break;
+                res = ps[1]; break;
             }
             case "KhoiC": {
-                res = ps[2];
-                break;
+                res = ps[2]; break;
             }
             case "KhoiD": {
-                res = ps[3];
-                break;
+                res = ps[3]; break;
             }
             case "TanTam": {
                 String t = spnTanTam.getValue().toString();
@@ -222,6 +214,8 @@ public class Main extends javax.swing.JFrame {
         cbQDLC.setSelectedIndex(0);
         cbNangKhieu.setSelectedIndex(0);
         cbUocMo.setSelectedIndex(0);
+        
+        lbJob.setText("Tư vấn ngành nghề");
     }
 
     /**
@@ -617,16 +611,16 @@ public class Main extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnRunActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRunActionPerformed
-//        try {
-        Instance kk = GetTestInstance();
-        String job = _Tree.trainingData.attribute(12).value(_Tree.TestData(kk));
-        System.out.println(job);
-        String show = Main.Jobs.get(job);
-        lbJob.setText(show);
-//        } catch (Exception e) {
-//            lbJob.setText("Không xác định");
-//            System.out.println(e.toString());
-//        }
+        try {
+            Instance kk = GetTestInstance();
+            String job = _Tree.trainingData.attribute(12).value(_Tree.TestData(kk));
+            System.out.println(job);
+            String show = Main.Jobs.get(job);
+            lbJob.setText(show);
+        } catch (Exception e) {
+            lbJob.setText("Không xác định");
+            System.out.println(e.toString());
+        }
 
 
     }//GEN-LAST:event_btnRunActionPerformed
