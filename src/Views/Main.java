@@ -120,7 +120,7 @@ public class Main extends javax.swing.JFrame {
         Main.Jobs.put("TKTT", "Thiết Kế Thời Trang");
         Main.Jobs.put("TNHAC", "Thanh Nhạc");
     }
-    
+
     private float _parseFloat(Object num) {
         if (num != null) {
             return Float.parseFloat(num.toString());
@@ -662,21 +662,21 @@ public class Main extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnRunActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRunActionPerformed
-//        try {
-        boolean check = CheckAllValueIsChange();
-        if (check) {
-            Instance kk = GetTestInstance();
-            String job = _Tree.trainingData.attribute(12).value(_Tree.TestData(kk));
-            System.out.println(job);
-            String show = Main.Jobs.get(job);
-            lbJob.setText("Nghề phù hợp: " + show);
-        } else {
-            lbJob.setText("Vui lòng nhập thông tin");
+        try {
+            boolean check = CheckAllValueIsChange();
+            if (check) {
+                Instance kk = GetTestInstance();
+                String job = _Tree.trainingData.attribute(12).value(_Tree.TestData(kk));
+                System.out.println(job);
+                String show = Main.Jobs.get(job);
+                lbJob.setText("Nghề phù hợp: " + show);
+            } else {
+                lbJob.setText("Vui lòng nhập thông tin");
+            }
+        } catch (Exception e) {
+            lbJob.setText("Không xác định");
+            System.out.println(e.toString());
         }
-//        } catch (Exception e) {
-//            lbJob.setText("Không xác định");
-//            System.out.println(e.toString());
-//        }
 
 
     }//GEN-LAST:event_btnRunActionPerformed
