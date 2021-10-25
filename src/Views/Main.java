@@ -24,7 +24,12 @@ public class Main extends javax.swing.JFrame {
 
     public static Map<String, ContainerMap> Attributes = new Hashtable<>();
     public static Map<String, String> Jobs = new Hashtable<>();
-    private final JSpinner[][] ListSpinner;
+    private final JSpinner[][] ListSpinnerSubject;
+    private final JSpinner[] ListSpinner;
+    private final JComboBox[] ListComboBox;
+
+    private JobDecisionTree _Tree;
+    private JFrame _Parent;
 
     private class ContainerMap {
 
@@ -40,14 +45,42 @@ public class Main extends javax.swing.JFrame {
      * Creates new form Main2
      */
     public Main(JobDecisionTree tree, JFrame parent) {
-        
+
         _Tree = tree;
         _Parent = parent;
         initComponents();
 
+        InitMapCombobox();
+        InitJobs();
+
+        this.ListSpinnerSubject = new JSpinner[][]{
+            {spnToan, spnLy, spnHoa},
+            {spnToan, spnHoa, spnSinh},
+            {spnVan, spnSu, spnDia},
+            {spnToan, spnAnh, spnVan}
+        };
+
+        this.ListSpinner = new JSpinner[]{
+            spnToan, spnLy, spnHoa,
+            spnAnh, spnVan, spnSinh,
+            spnSu, spnDia, spnTanTam,
+            spnTuongTac, spnCoiMo
+        };
+
+        this.ListComboBox = new JComboBox[]{
+            cbGioiTinh, cbXuHuong,
+            cbxQuyetDinh, cbNangKhieu,
+            cbUocMo
+        };
+
+        _Parent.setVisible(false);
+        System.out.println(_Tree.performTraining());
+    }
+
+    private void InitMapCombobox() {
         Main.Attributes.put("GT", new ContainerMap(cbGioiTinh, new String[]{"nam", "nu"}));
         Main.Attributes.put("XuHuong", new ContainerMap(cbXuHuong, new String[]{"noi", "ngoai"}));
-        Main.Attributes.put("QD", new ContainerMap(cbQDLC, new String[]{"lytri", "tinhcam"}));
+        Main.Attributes.put("QD", new ContainerMap(cbxQuyetDinh, new String[]{"lytri", "tinhcam"}));
 //        Main.Attributes.put("TanTam", new ContainerMap(cbTanTam, new String[]{"tb", "kha", "cao"}));
 //        Main.Attributes.put("TuongTac", new ContainerMap(cbTuongTac, new String[]{"tb", "kha", "cao"}));
 //        Main.Attributes.put("CoiMo", new ContainerMap(cbCoiMo, new String[]{"chuatot", "kha", "tot"}));
@@ -72,21 +105,7 @@ public class Main extends javax.swing.JFrame {
             "tuduy",
             "tuongtac"
         }));
-        
-        this.ListSpinner = new JSpinner[][]{
-            {spnToan,spnLy, spnHoa},
-            {spnToan, spnHoa,spnSinh},
-            {spnVan, spnSu, spnDia},
-            {spnToan,spnAnh,spnVan},
-        };
-
-        InitJobs();
-        _Parent.setVisible(false);
-        System.out.println(_Tree.performTraining());
     }
-
-    private JobDecisionTree _Tree;
-    private JFrame _Parent;
 
     private void InitJobs() {
         Main.Jobs.put("CNTT", "Công Nghệ Thông Tin");
@@ -107,13 +126,13 @@ public class Main extends javax.swing.JFrame {
 
         }
     }
-    
+
     private float[] GetPointABCD() {
         float[] temps = new float[4];
         Integer index = 0;
-        for (JSpinner[] items : ListSpinner) {
+        for (JSpinner[] items : ListSpinnerSubject) {
             for (JSpinner item : items) {
-                temps[index] += _parseFloat(item.getValue())/3;
+                temps[index] += _parseFloat(item.getValue()) / 3;
             }
             index++;
         }
@@ -124,16 +143,20 @@ public class Main extends javax.swing.JFrame {
         float res = 0F;
         switch (name) {
             case "KhoiA": {
-                res = ps[0]; break;
+                res = ps[0];
+                break;
             }
             case "KhoiB": {
-                res = ps[1]; break;
+                res = ps[1];
+                break;
             }
             case "KhoiC": {
-                res = ps[2]; break;
+                res = ps[2];
+                break;
             }
             case "KhoiD": {
-                res = ps[3]; break;
+                res = ps[3];
+                break;
             }
             case "TanTam": {
                 String t = spnTanTam.getValue().toString();
@@ -211,11 +234,25 @@ public class Main extends javax.swing.JFrame {
 
         cbGioiTinh.setSelectedIndex(0);
         cbXuHuong.setSelectedIndex(0);
-        cbQDLC.setSelectedIndex(0);
+        cbxQuyetDinh.setSelectedIndex(0);
         cbNangKhieu.setSelectedIndex(0);
         cbUocMo.setSelectedIndex(0);
-        
+
         lbJob.setText("Tư vấn ngành nghề");
+    }
+
+    private boolean CheckAllValueIsChange() {
+        for (JSpinner item : ListSpinner) {
+            float t = _parseFloat(item.getValue());
+            if(t > 0) return true;
+        }
+        
+        for (JComboBox item : ListComboBox) {
+            Integer t = item.getSelectedIndex();
+            if(t > 0) return true;
+        }
+        
+        return false;
     }
 
     /**
@@ -255,7 +292,7 @@ public class Main extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
         cbUocMo = new javax.swing.JComboBox<>();
         jLabel9 = new javax.swing.JLabel();
-        cbQDLC = new javax.swing.JComboBox<>();
+        cbxQuyetDinh = new javax.swing.JComboBox<>();
         spnTanTam = new javax.swing.JSpinner();
         jLabel11 = new javax.swing.JLabel();
         spnTuongTac = new javax.swing.JSpinner();
@@ -371,9 +408,9 @@ public class Main extends javax.swing.JFrame {
         jLabel9.setText("Quyết định");
         jLabel9.setPreferredSize(new java.awt.Dimension(100, 50));
 
-        cbQDLC.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        cbQDLC.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "<None>", "Lý trí", "Tình cảm" }));
-        cbQDLC.setPreferredSize(new java.awt.Dimension(100, 50));
+        cbxQuyetDinh.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        cbxQuyetDinh.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "<None>", "Lý trí", "Tình cảm" }));
+        cbxQuyetDinh.setPreferredSize(new java.awt.Dimension(100, 50));
 
         spnTanTam.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
@@ -446,7 +483,7 @@ public class Main extends javax.swing.JFrame {
                                     .addGroup(layout.createSequentialGroup()
                                         .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(cbQDLC, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(cbxQuyetDinh, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
                                         .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -546,7 +583,7 @@ public class Main extends javax.swing.JFrame {
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(cbQDLC, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(cbxQuyetDinh, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -612,11 +649,16 @@ public class Main extends javax.swing.JFrame {
 
     private void btnRunActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRunActionPerformed
         try {
-            Instance kk = GetTestInstance();
-            String job = _Tree.trainingData.attribute(12).value(_Tree.TestData(kk));
-            System.out.println(job);
-            String show = Main.Jobs.get(job);
-            lbJob.setText(show);
+            boolean check = CheckAllValueIsChange();
+            if(check) {
+                Instance kk = GetTestInstance();
+                String job = _Tree.trainingData.attribute(12).value(_Tree.TestData(kk));
+                System.out.println(job);
+                String show = Main.Jobs.get(job);
+                lbJob.setText(show);
+            } else {
+                lbJob.setText("Vui lòng nhập thông tin");
+            }
         } catch (Exception e) {
             lbJob.setText("Không xác định");
             System.out.println(e.toString());
@@ -639,9 +681,9 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JButton btnRun;
     private javax.swing.JComboBox<String> cbGioiTinh;
     private javax.swing.JComboBox<String> cbNangKhieu;
-    private javax.swing.JComboBox<String> cbQDLC;
     private javax.swing.JComboBox<String> cbUocMo;
     private javax.swing.JComboBox<String> cbXuHuong;
+    private javax.swing.JComboBox<String> cbxQuyetDinh;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel3;
