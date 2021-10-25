@@ -21,7 +21,7 @@ public class InfoModel {
     private String TuongTac;
     private String CoiMo;
     private String NangKhieu;
-    private String UocMoCV;
+    private String UocMo;
     private String Job;
 
     public InfoModel() {
@@ -39,7 +39,7 @@ public class InfoModel {
         this.TuongTac = TuongTac;
         this.CoiMo = CoiMo;
         this.NangKhieu = NangKhieu;
-        this.UocMoCV = UocMoCV;
+        this.UocMo = UocMoCV;
         this.Job = Job;
     }
 
@@ -132,11 +132,11 @@ public class InfoModel {
     }
 
     public String getUocMoCV() {
-        return UocMoCV;
+        return UocMo;
     }
 
     public void setUocMoCV(String UocMoCV) {
-        this.UocMoCV = UocMoCV;
+        this.UocMo = UocMoCV;
     }
 
     public String getJob() {
