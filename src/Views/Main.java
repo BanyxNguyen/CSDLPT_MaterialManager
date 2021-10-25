@@ -120,7 +120,7 @@ public class Main extends javax.swing.JFrame {
         Main.Jobs.put("TKTT", "Thiết Kế Thời Trang");
         Main.Jobs.put("TNHAC", "Thanh Nhạc");
     }
-
+    
     private float _parseFloat(Object num) {
         if (num != null) {
             return Float.parseFloat(num.toString());
@@ -271,11 +271,11 @@ public class Main extends javax.swing.JFrame {
     private void initComponents() {
 
         rbtnGroupKhoi = new javax.swing.ButtonGroup();
-        jLabel3 = new javax.swing.JLabel();
+        lbGioiTinh = new javax.swing.JLabel();
         cbGioiTinh = new javax.swing.JComboBox<>();
         lbM1 = new javax.swing.JLabel();
         cbXuHuong = new javax.swing.JComboBox<>();
-        jLabel5 = new javax.swing.JLabel();
+        lbXuHuong = new javax.swing.JLabel();
         btnRun = new javax.swing.JButton();
         spnToan = new javax.swing.JSpinner();
         lbM2 = new javax.swing.JLabel();
@@ -293,11 +293,11 @@ public class Main extends javax.swing.JFrame {
         lbM8 = new javax.swing.JLabel();
         spnSinh = new javax.swing.JSpinner();
         jLabel4 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
+        lbNangKhieu = new javax.swing.JLabel();
         cbNangKhieu = new javax.swing.JComboBox<>();
-        jLabel8 = new javax.swing.JLabel();
+        lbUocMo = new javax.swing.JLabel();
         cbUocMo = new javax.swing.JComboBox<>();
-        jLabel9 = new javax.swing.JLabel();
+        lbQuyetDinh = new javax.swing.JLabel();
         cbxQuyetDinh = new javax.swing.JComboBox<>();
         spnTanTam = new javax.swing.JSpinner();
         jLabel11 = new javax.swing.JLabel();
@@ -318,9 +318,10 @@ public class Main extends javax.swing.JFrame {
             }
         });
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel3.setText("Giới tính");
-        jLabel3.setPreferredSize(new java.awt.Dimension(100, 50));
+        lbGioiTinh.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        lbGioiTinh.setText("Giới tính");
+        lbGioiTinh.setToolTipText("Giới tính sẽ ảnh hưởng đến ngành phù hợp với từng giới");
+        lbGioiTinh.setPreferredSize(new java.awt.Dimension(100, 50));
 
         cbGioiTinh.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         cbGioiTinh.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "<None>", "Nam", "Nữ" }));
@@ -334,10 +335,10 @@ public class Main extends javax.swing.JFrame {
         cbXuHuong.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "<None>", "Hướng nội", "Hướng ngoại" }));
         cbXuHuong.setPreferredSize(new java.awt.Dimension(100, 50));
 
-        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel5.setText("Xu hướng");
-        jLabel5.setToolTipText("abc");
-        jLabel5.setPreferredSize(new java.awt.Dimension(100, 50));
+        lbXuHuong.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        lbXuHuong.setText("Xu hướng");
+        lbXuHuong.setToolTipText("Là 1 người có tính cách hướng nội hay hướng ngoại. Những ngành nào sẽ phù hợp với người hướng ngoại, cũng như người hướng nội.");
+        lbXuHuong.setPreferredSize(new java.awt.Dimension(100, 50));
 
         btnRun.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnRun.setText("Run");
@@ -393,27 +394,31 @@ public class Main extends javax.swing.JFrame {
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel4.setText("Tận tâm");
+        jLabel4.setToolTipText("Tính tận tâm được đánh giá trên thang điểm 1 đến 10");
         jLabel4.setPreferredSize(new java.awt.Dimension(100, 50));
 
-        jLabel7.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel7.setText("Năng khiếu");
-        jLabel7.setPreferredSize(new java.awt.Dimension(100, 50));
+        lbNangKhieu.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        lbNangKhieu.setText("Năng khiếu");
+        lbNangKhieu.setToolTipText("Những năng khiếu nào sẽ phù hợp, bổ trợ tốt cho các ngành học nào.");
+        lbNangKhieu.setPreferredSize(new java.awt.Dimension(100, 50));
 
         cbNangKhieu.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         cbNangKhieu.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "<None>", "Ca hát", "Hoạ hình không gian", "Hoạt ngôn", "Kinh doanh", "May vá", "Tính toán giỏi", "Tư duy Nhanh", "Vẽ" }));
         cbNangKhieu.setPreferredSize(new java.awt.Dimension(100, 50));
 
-        jLabel8.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel8.setText("Ước mơ");
-        jLabel8.setPreferredSize(new java.awt.Dimension(100, 50));
+        lbUocMo.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        lbUocMo.setText("Ước mơ");
+        lbUocMo.setToolTipText("Sợ thích, mong muốn về công việc mình sẽ học và làm.");
+        lbUocMo.setPreferredSize(new java.awt.Dimension(100, 50));
 
         cbUocMo.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         cbUocMo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "<None>", "Hỗ trợ cộng đồng", "Khởi nghiệp", "Khảo sát", "Nghiên cứu công nghệ", "Nghiên cứu khoa học", "Nghiên cứu thực phẩm", "Nghiên cứu thị trường", "Nghệ thuật", "Ổn dịnh", "Sáng Tạo", "Tư duy", "Tương tác" }));
         cbUocMo.setPreferredSize(new java.awt.Dimension(100, 50));
 
-        jLabel9.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel9.setText("Quyết định");
-        jLabel9.setPreferredSize(new java.awt.Dimension(100, 50));
+        lbQuyetDinh.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        lbQuyetDinh.setText("Quyết định");
+        lbQuyetDinh.setToolTipText(" Nếu phải đưa ra 1 lựa chọn quan trọng. Bạn thường đưa ra quyết định dựa theo cảm xúc hay sẽ suy nghĩ thấu đáo.");
+        lbQuyetDinh.setPreferredSize(new java.awt.Dimension(100, 50));
 
         cbxQuyetDinh.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         cbxQuyetDinh.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "<None>", "Lý trí", "Tình cảm" }));
@@ -423,12 +428,14 @@ public class Main extends javax.swing.JFrame {
 
         jLabel11.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel11.setText("Tương tác");
+        jLabel11.setToolTipText("Khả năng tương tác được đánh giá trên thang điểm 1 đến 10");
         jLabel11.setPreferredSize(new java.awt.Dimension(100, 50));
 
         spnTuongTac.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
 
         jLabel12.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel12.setText("Cởi mở");
+        jLabel12.setToolTipText("Tính cởi mở được đánh giá trên thang điểm 1 đến 10");
         jLabel12.setPreferredSize(new java.awt.Dimension(100, 50));
 
         spnCoiMo.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
@@ -473,7 +480,7 @@ public class Main extends javax.swing.JFrame {
                 .addGap(58, 58, 58)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(lbUocMo, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(cbUocMo, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -482,21 +489,21 @@ public class Main extends javax.swing.JFrame {
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(lbQuyetDinh, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addComponent(cbxQuyetDinh, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(lbGioiTinh, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addComponent(cbGioiTinh, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 124, Short.MAX_VALUE)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(lbXuHuong, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addComponent(cbXuHuong, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(lbNangKhieu, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addComponent(cbNangKhieu, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addGroup(layout.createSequentialGroup()
@@ -574,26 +581,26 @@ public class Main extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(lbXuHuong, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addComponent(cbXuHuong, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(2, 2, 2)
                                 .addComponent(btnReset, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lbNangKhieu, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(cbNangKhieu, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lbGioiTinh, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(cbGioiTinh, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lbQuyetDinh, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(cbxQuyetDinh, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lbUocMo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(cbUocMo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(35, 35, 35)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -693,13 +700,9 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> cbxQuyetDinh;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel lbGioiTinh;
     private javax.swing.JLabel lbJob;
     private javax.swing.JLabel lbM1;
     private javax.swing.JLabel lbM2;
@@ -709,6 +712,10 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JLabel lbM6;
     private javax.swing.JLabel lbM7;
     private javax.swing.JLabel lbM8;
+    private javax.swing.JLabel lbNangKhieu;
+    private javax.swing.JLabel lbQuyetDinh;
+    private javax.swing.JLabel lbUocMo;
+    private javax.swing.JLabel lbXuHuong;
     private javax.swing.ButtonGroup rbtnGroupKhoi;
     private javax.swing.JSpinner spnAnh;
     private javax.swing.JSpinner spnCoiMo;
