@@ -303,6 +303,7 @@ public class Main extends javax.swing.JFrame {
         btnReset = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Ứng Dựng Hỗ Trợ Tư Vấn Chọn Nghề");
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setPreferredSize(new java.awt.Dimension(891, 660));
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -655,7 +656,7 @@ public class Main extends javax.swing.JFrame {
                 String job = _Tree.trainingData.attribute(12).value(_Tree.TestData(kk));
                 System.out.println(job);
                 String show = Main.Jobs.get(job);
-                lbJob.setText(show);
+                lbJob.setText("Nghề phù hợp: " + show);
             } else {
                 lbJob.setText("Vui lòng nhập thông tin");
             }
