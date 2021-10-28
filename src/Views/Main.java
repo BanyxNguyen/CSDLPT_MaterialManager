@@ -669,8 +669,14 @@ public class Main extends javax.swing.JFrame {
                 Instance kk = GetTestInstance();
                 String job = _Tree.trainingData.attribute(12).value(_Tree.TestData(kk));
                 System.out.println(job);
-                String show = Main.Jobs.get(job);
-                lbJob.setText("Nghề phù hợp: " + show);
+                String temp, resultJob;
+                temp = Main.Jobs.get(job);
+                if (temp != null) {
+                    resultJob = temp;
+                } else {
+                    resultJob = job;
+                }
+                lbJob.setText("Nghề phù hợp: " + resultJob);
             } else {
                 lbJob.setText("Vui lòng nhập thông tin");
             }
