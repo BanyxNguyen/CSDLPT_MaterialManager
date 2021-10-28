@@ -112,6 +112,7 @@ public class Main extends javax.swing.JFrame {
 
     private void InitJobs() {
         Main.Jobs.put("CNTT", "Công Nghệ Thông Tin");
+        Main.Jobs.put("CNTP", "Công Nghệ Thực Phẩm");
         Main.Jobs.put("DTU", "Điện Tử");
         Main.Jobs.put("KTS", "Kiến Trúc Sư");
         Main.Jobs.put("MRT", "Marketing");
