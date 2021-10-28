@@ -679,6 +679,7 @@ public class Main extends javax.swing.JFrame {
                 lbJob.setText("Nghề phù hợp: " + resultJob);
             } else {
                 lbJob.setText("Vui lòng nhập thông tin");
+//                123
             }
         } catch (Exception e) {
             lbJob.setText("Không xác định");
