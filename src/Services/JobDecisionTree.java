@@ -78,9 +78,10 @@ public class JobDecisionTree {
     public J48 performTraining() {
         J48 j48 = new J48();
         //  Use unpruned tree. -U
-        String[] options = {"-U"};
+        //String[] options = {"-U"};
         try {
-            j48.setOptions(options);
+            j48.setUnpruned(false);
+            j48.setMinNumObj(2);
             j48.buildClassifier(trainingData);
         } catch (Exception ex) {
             ex.printStackTrace();
