@@ -103,7 +103,7 @@ public class LoadDataTraining extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnChooseFileActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnChooseFileActionPerformed
-        JFileChooser openfile = new JFileChooser("F:\\_school\\pthtdttt\\prjTuVanChonNghe\\Data");
+        JFileChooser openfile = new JFileChooser("C:\\Users\\thongbau\\OneDrive\\Desktop\\prjTuVanChonNghe\\Data");
         openfile.setAcceptAllFileFilterUsed(false);
         FileNameExtensionFilter filter = new FileNameExtensionFilter("CSV", "csv");
         openfile.setFileFilter(filter);
