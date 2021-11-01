@@ -482,7 +482,7 @@ public class Main extends javax.swing.JFrame {
         cbxQuyetDinh.setToolTipText("Vui lòng chọn quyết định?");
         cbxQuyetDinh.setPreferredSize(new java.awt.Dimension(100, 50));
 
-        spnTanTam.setModel(new javax.swing.SpinnerNumberModel(0.0f, null, null, 1.0f));
+        spnTanTam.setModel(new javax.swing.SpinnerNumberModel());
         spnTanTam.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 spnTanTamStateChanged(evt);
@@ -494,7 +494,7 @@ public class Main extends javax.swing.JFrame {
         jLabel11.setToolTipText("Khả năng tương tác được đánh giá trên thang điểm 1 đến 10");
         jLabel11.setPreferredSize(new java.awt.Dimension(100, 50));
 
-        spnTuongTac.setModel(new javax.swing.SpinnerNumberModel(0.0f, null, null, 1.0f));
+        spnTuongTac.setModel(new javax.swing.SpinnerNumberModel());
         spnTuongTac.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 spnTuongTacStateChanged(evt);
@@ -506,7 +506,7 @@ public class Main extends javax.swing.JFrame {
         jLabel12.setToolTipText("Tính cởi mở được đánh giá trên thang điểm 1 đến 10");
         jLabel12.setPreferredSize(new java.awt.Dimension(100, 50));
 
-        spnCoiMo.setModel(new javax.swing.SpinnerNumberModel(0.0f, null, null, 1.0f));
+        spnCoiMo.setModel(new javax.swing.SpinnerNumberModel());
         spnCoiMo.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 spnCoiMoStateChanged(evt);
@@ -778,7 +778,7 @@ public class Main extends javax.swing.JFrame {
          if(Float.parseFloat(spnToan.getValue().toString())>10||Float.parseFloat(spnToan.getValue().toString())<0)
         {
             spnToan.setValue(0);           
-            JOptionPane.showMessageDialog(frame, "Giá trị phải lớn hơn 0 và nhỏ hơn 10");
+            JOptionPane.showMessageDialog(frame, "Chỉ nhận giá trị số và Giá trị phải lớn hơn 0 và nhỏ hơn 10");
         }
        
     }//GEN-LAST:event_spnToanStateChanged
@@ -788,7 +788,7 @@ public class Main extends javax.swing.JFrame {
         if(Float.parseFloat(spnTanTam.getValue().toString())>10||Float.parseFloat(spnTanTam.getValue().toString())<0)
         {
             spnTanTam.setValue(0);           
-            JOptionPane.showMessageDialog(frame, "Giá trị phải lớn hơn 0 và nhỏ hơn 10");
+            JOptionPane.showMessageDialog(frame, "Chỉ nhận giá trị nguyên và Giá trị phải lớn hơn 0 và nhỏ hơn 10");
         }
     }//GEN-LAST:event_spnTanTamStateChanged
 
@@ -797,7 +797,7 @@ public class Main extends javax.swing.JFrame {
         if(Float.parseFloat(spnTuongTac.getValue().toString())>10||Float.parseFloat(spnTuongTac.getValue().toString())<0)
         {
             spnTuongTac.setValue(0);           
-            JOptionPane.showMessageDialog(frame, "Giá trị phải lớn hơn 0 và nhỏ hơn 10");
+            JOptionPane.showMessageDialog(frame, "Chỉ nhận giá trị nguyên và Giá trị phải lớn hơn 0 và nhỏ hơn 10");
         }
     }//GEN-LAST:event_spnTuongTacStateChanged
 
@@ -806,7 +806,7 @@ public class Main extends javax.swing.JFrame {
         if(Float.parseFloat(spnCoiMo.getValue().toString())>10||Float.parseFloat(spnCoiMo.getValue().toString())<0)
         {
             spnTuongTac.setValue(0);           
-            JOptionPane.showMessageDialog(frame, "Giá trị phải lớn hơn 0 và nhỏ hơn 10");
+            JOptionPane.showMessageDialog(frame, "Chỉ nhận giá trị nguyên và Giá trị phải lớn hơn 0 và nhỏ hơn 10");
         }
     }//GEN-LAST:event_spnCoiMoStateChanged
 
@@ -815,7 +815,7 @@ public class Main extends javax.swing.JFrame {
         if(Float.parseFloat(spnHoa.getValue().toString())>10||Float.parseFloat(spnHoa.getValue().toString())<0)
         {
             spnHoa.setValue(0);           
-            JOptionPane.showMessageDialog(frame, "Giá trị phải lớn hơn 0 và nhỏ hơn 10");
+            JOptionPane.showMessageDialog(frame, "Chỉ nhận giá trị số và Giá trị phải lớn hơn 0 và nhỏ hơn 10");
         }
     }//GEN-LAST:event_spnHoaStateChanged
 
@@ -824,7 +824,7 @@ public class Main extends javax.swing.JFrame {
         if(Float.parseFloat(spnLy.getValue().toString())>10||Float.parseFloat(spnLy.getValue().toString())<0)
         {
             spnLy.setValue(0);           
-            JOptionPane.showMessageDialog(frame, "Giá trị phải lớn hơn 0 và nhỏ hơn 10");
+            JOptionPane.showMessageDialog(frame, "Chỉ nhận giá trị số và Giá trị phải lớn hơn 0 và nhỏ hơn 10");
         }
     }//GEN-LAST:event_spnLyStateChanged
 
@@ -833,7 +833,7 @@ public class Main extends javax.swing.JFrame {
         if(Float.parseFloat(spnAnh.getValue().toString())>10||Float.parseFloat(spnAnh.getValue().toString())<0)
         {
             spnAnh.setValue(0);           
-            JOptionPane.showMessageDialog(frame, "Giá trị phải lớn hơn 0 và nhỏ hơn 10");
+            JOptionPane.showMessageDialog(frame, "Chỉ nhận giá trị số và Giá trị phải lớn hơn 0 và nhỏ hơn 10");
         }
     }//GEN-LAST:event_spnAnhStateChanged
 
@@ -842,7 +842,7 @@ public class Main extends javax.swing.JFrame {
         if(Float.parseFloat(spnVan.getValue().toString())>10||Float.parseFloat(spnVan.getValue().toString())<0)
         {
             spnVan.setValue(0);           
-            JOptionPane.showMessageDialog(frame, "Giá trị phải lớn hơn 0 và nhỏ hơn 10");
+            JOptionPane.showMessageDialog(frame, "Chỉ nhận giá trị số và Giá trị phải lớn hơn 0 và nhỏ hơn 10");
         }
     }//GEN-LAST:event_spnVanStateChanged
 
@@ -851,7 +851,7 @@ public class Main extends javax.swing.JFrame {
         if(Float.parseFloat(spnSinh.getValue().toString())>10||Float.parseFloat(spnSinh.getValue().toString())<0)
         {
             spnSinh.setValue(0);           
-            JOptionPane.showMessageDialog(frame, "Giá trị phải lớn hơn 0 và nhỏ hơn 10");
+            JOptionPane.showMessageDialog(frame, "Chỉ nhận giá trị số và Giá trị phải lớn hơn 0 và nhỏ hơn 10");
         }
     }//GEN-LAST:event_spnSinhStateChanged
 
@@ -860,7 +860,7 @@ public class Main extends javax.swing.JFrame {
          if(Float.parseFloat(spnSu.getValue().toString())>10||Float.parseFloat(spnSu.getValue().toString())<0)
         {
             spnSu.setValue(0);           
-            JOptionPane.showMessageDialog(frame, "Giá trị phải lớn hơn 0 và nhỏ hơn 10");
+            JOptionPane.showMessageDialog(frame, "Chỉ nhận giá trị số và Giá trị phải lớn hơn 0 và nhỏ hơn 10");
         }
     }//GEN-LAST:event_spnSuStateChanged
 
@@ -869,7 +869,7 @@ public class Main extends javax.swing.JFrame {
          if(Float.parseFloat(spnDia.getValue().toString())>10||Float.parseFloat(spnDia.getValue().toString())<0)
         {
             spnDia.setValue(0);           
-            JOptionPane.showMessageDialog(frame, "Giá trị phải lớn hơn 0 và nhỏ hơn 10");
+            JOptionPane.showMessageDialog(frame, "Chỉ nhận giá trị số và Giá trị phải lớn hơn 0 và nhỏ hơn 10");
         }
     }//GEN-LAST:event_spnDiaStateChanged
 
