@@ -6,11 +6,13 @@
 package Views;
 
 import Services.JobDecisionTree;
+import java.awt.Frame;
 import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Map;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 import javax.swing.JSpinner;
 import weka.core.Attribute;
 import weka.core.DenseInstance;
@@ -27,6 +29,7 @@ public class Main extends javax.swing.JFrame {
     private final JSpinner[][] ListSpinnerSubject;
     private final JSpinner[] ListSpinner;
     private final JComboBox[] ListComboBox;
+    private static Frame frame;
 
     private JobDecisionTree _Tree;
     private JFrame _Parent;
@@ -352,9 +355,15 @@ public class Main extends javax.swing.JFrame {
             }
         });
 
-        spnToan.setModel(new javax.swing.SpinnerNumberModel(Float.valueOf(0.0f), Float.valueOf(0.0f), Float.valueOf(10.0f), Float.valueOf(1.0f)));
+        spnToan.setModel(new javax.swing.SpinnerNumberModel(0.0f, null, null, 1.0f));
+        spnToan.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                spnToanStateChanged(evt);
+            }
+        });
         spnToan.addInputMethodListener(new java.awt.event.InputMethodListener() {
             public void caretPositionChanged(java.awt.event.InputMethodEvent evt) {
+                spnToanCaretPositionChanged(evt);
             }
             public void inputMethodTextChanged(java.awt.event.InputMethodEvent evt) {
                 spnToanInputMethodTextChanged(evt);
@@ -365,43 +374,78 @@ public class Main extends javax.swing.JFrame {
         lbM2.setText("Lý");
         lbM2.setPreferredSize(new java.awt.Dimension(100, 50));
 
-        spnLy.setModel(new javax.swing.SpinnerNumberModel(Float.valueOf(0.0f), Float.valueOf(0.0f), Float.valueOf(10.0f), Float.valueOf(1.0f)));
+        spnLy.setModel(new javax.swing.SpinnerNumberModel(0.0f, null, null, 1.0f));
+        spnLy.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                spnLyStateChanged(evt);
+            }
+        });
 
         lbM3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         lbM3.setText("Hóa");
         lbM3.setPreferredSize(new java.awt.Dimension(100, 50));
 
-        spnHoa.setModel(new javax.swing.SpinnerNumberModel(Float.valueOf(0.0f), Float.valueOf(0.0f), Float.valueOf(10.0f), Float.valueOf(1.0f)));
+        spnHoa.setModel(new javax.swing.SpinnerNumberModel(0.0f, null, null, 1.0f));
+        spnHoa.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                spnHoaStateChanged(evt);
+            }
+        });
 
         lbM4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         lbM4.setText("Anh");
         lbM4.setPreferredSize(new java.awt.Dimension(100, 50));
 
-        spnAnh.setModel(new javax.swing.SpinnerNumberModel(Float.valueOf(0.0f), Float.valueOf(0.0f), Float.valueOf(10.0f), Float.valueOf(1.0f)));
+        spnAnh.setModel(new javax.swing.SpinnerNumberModel(0.0f, null, null, 1.0f));
+        spnAnh.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                spnAnhStateChanged(evt);
+            }
+        });
 
         lbM5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         lbM5.setText("Sử");
         lbM5.setPreferredSize(new java.awt.Dimension(100, 50));
 
-        spnSu.setModel(new javax.swing.SpinnerNumberModel(Float.valueOf(0.0f), Float.valueOf(0.0f), Float.valueOf(10.0f), Float.valueOf(1.0f)));
+        spnSu.setModel(new javax.swing.SpinnerNumberModel(0.0f, null, null, 1.0f));
+        spnSu.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                spnSuStateChanged(evt);
+            }
+        });
 
         lbM6.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         lbM6.setText("Địa");
         lbM6.setPreferredSize(new java.awt.Dimension(100, 50));
 
-        spnDia.setModel(new javax.swing.SpinnerNumberModel(Float.valueOf(0.0f), Float.valueOf(0.0f), Float.valueOf(10.0f), Float.valueOf(1.0f)));
+        spnDia.setModel(new javax.swing.SpinnerNumberModel(0.0f, null, null, 1.0f));
+        spnDia.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                spnDiaStateChanged(evt);
+            }
+        });
 
         lbM7.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         lbM7.setText("Văn");
         lbM7.setPreferredSize(new java.awt.Dimension(100, 50));
 
-        spnVan.setModel(new javax.swing.SpinnerNumberModel(Float.valueOf(0.0f), Float.valueOf(0.0f), Float.valueOf(10.0f), Float.valueOf(1.0f)));
+        spnVan.setModel(new javax.swing.SpinnerNumberModel(0.0f, null, null, 1.0f));
+        spnVan.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                spnVanStateChanged(evt);
+            }
+        });
 
         lbM8.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         lbM8.setText("Sinh");
         lbM8.setPreferredSize(new java.awt.Dimension(100, 50));
 
-        spnSinh.setModel(new javax.swing.SpinnerNumberModel(Float.valueOf(0.0f), Float.valueOf(0.0f), Float.valueOf(10.0f), Float.valueOf(1.0f)));
+        spnSinh.setModel(new javax.swing.SpinnerNumberModel(0.0f, null, null, 1.0f));
+        spnSinh.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                spnSinhStateChanged(evt);
+            }
+        });
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel4.setText("Tận tâm");
@@ -424,7 +468,7 @@ public class Main extends javax.swing.JFrame {
         lbUocMo.setPreferredSize(new java.awt.Dimension(100, 50));
 
         cbUocMo.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        cbUocMo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "<None>", "Hỗ trợ cộng đồng", "Khởi nghiệp", "Khảo sát", "Nghiên cứu công nghệ", "Nghiên cứu khoa học", "Nghiên cứu thực phẩm", "Nghiên cứu thị trường", "Nghệ thuật", "Ổn dịnh", "Sáng Tạo", "Tư duy", "Tương tác" }));
+        cbUocMo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "<None>", "Hỗ trợ cộng đồng", "Khởi nghiệp", "Khảo sát", "Nghiên cứu công nghệ", "Nghiên cứu khoa học", "Nghiên cứu thực phẩm", "Nghiên cứu thị trường", "Nghệ thuật", "Ổn định", "Sáng Tạo", "Tư duy", "Tương tác" }));
         cbUocMo.setToolTipText("Vui lòng chọn ước mơ?");
         cbUocMo.setPreferredSize(new java.awt.Dimension(100, 50));
 
@@ -438,21 +482,36 @@ public class Main extends javax.swing.JFrame {
         cbxQuyetDinh.setToolTipText("Vui lòng chọn quyết định?");
         cbxQuyetDinh.setPreferredSize(new java.awt.Dimension(100, 50));
 
-        spnTanTam.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spnTanTam.setModel(new javax.swing.SpinnerNumberModel(0.0f, null, null, 1.0f));
+        spnTanTam.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                spnTanTamStateChanged(evt);
+            }
+        });
 
         jLabel11.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel11.setText("Tương tác");
         jLabel11.setToolTipText("Khả năng tương tác được đánh giá trên thang điểm 1 đến 10");
         jLabel11.setPreferredSize(new java.awt.Dimension(100, 50));
 
-        spnTuongTac.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spnTuongTac.setModel(new javax.swing.SpinnerNumberModel(0.0f, null, null, 1.0f));
+        spnTuongTac.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                spnTuongTacStateChanged(evt);
+            }
+        });
 
         jLabel12.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel12.setText("Cởi mở");
         jLabel12.setToolTipText("Tính cởi mở được đánh giá trên thang điểm 1 đến 10");
         jLabel12.setPreferredSize(new java.awt.Dimension(100, 50));
 
-        spnCoiMo.setModel(new javax.swing.SpinnerNumberModel(0, 0, 10, 1));
+        spnCoiMo.setModel(new javax.swing.SpinnerNumberModel(0.0f, null, null, 1.0f));
+        spnCoiMo.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                spnCoiMoStateChanged(evt);
+            }
+        });
 
         jPanel1.setBackground(new java.awt.Color(102, 102, 102));
 
@@ -609,7 +668,7 @@ public class Main extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lbUocMo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(cbUocMo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(35, 35, 35)
+                .addGap(42, 42, 42)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -658,7 +717,7 @@ public class Main extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(lbM6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(spnDia, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 50, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 43, Short.MAX_VALUE)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(25, 25, 25)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -706,9 +765,113 @@ public class Main extends javax.swing.JFrame {
     }//GEN-LAST:event_btnResetActionPerformed
 
     private void spnToanInputMethodTextChanged(java.awt.event.InputMethodEvent evt) {//GEN-FIRST:event_spnToanInputMethodTextChanged
-        // TODO add your handling code here:
         
     }//GEN-LAST:event_spnToanInputMethodTextChanged
+
+    private void spnToanCaretPositionChanged(java.awt.event.InputMethodEvent evt) {//GEN-FIRST:event_spnToanCaretPositionChanged
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_spnToanCaretPositionChanged
+
+    private void spnToanStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_spnToanStateChanged
+        // TODO add your handling code here:
+         if(Float.parseFloat(spnToan.getValue().toString())>10||Float.parseFloat(spnToan.getValue().toString())<0)
+        {
+            spnToan.setValue(0);           
+            JOptionPane.showMessageDialog(frame, "Giá trị phải lớn hơn 0 và nhỏ hơn 10");
+        }
+       
+    }//GEN-LAST:event_spnToanStateChanged
+
+    private void spnTanTamStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_spnTanTamStateChanged
+        // TODO add your handling code here:
+        if(Float.parseFloat(spnTanTam.getValue().toString())>10||Float.parseFloat(spnTanTam.getValue().toString())<0)
+        {
+            spnTanTam.setValue(0);           
+            JOptionPane.showMessageDialog(frame, "Giá trị phải lớn hơn 0 và nhỏ hơn 10");
+        }
+    }//GEN-LAST:event_spnTanTamStateChanged
+
+    private void spnTuongTacStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_spnTuongTacStateChanged
+        // TODO add your handling code here:
+        if(Float.parseFloat(spnTuongTac.getValue().toString())>10||Float.parseFloat(spnTuongTac.getValue().toString())<0)
+        {
+            spnTuongTac.setValue(0);           
+            JOptionPane.showMessageDialog(frame, "Giá trị phải lớn hơn 0 và nhỏ hơn 10");
+        }
+    }//GEN-LAST:event_spnTuongTacStateChanged
+
+    private void spnCoiMoStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_spnCoiMoStateChanged
+        // TODO add your handling code here:
+        if(Float.parseFloat(spnCoiMo.getValue().toString())>10||Float.parseFloat(spnCoiMo.getValue().toString())<0)
+        {
+            spnTuongTac.setValue(0);           
+            JOptionPane.showMessageDialog(frame, "Giá trị phải lớn hơn 0 và nhỏ hơn 10");
+        }
+    }//GEN-LAST:event_spnCoiMoStateChanged
+
+    private void spnHoaStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_spnHoaStateChanged
+        // TODO add your handling code here:
+        if(Float.parseFloat(spnHoa.getValue().toString())>10||Float.parseFloat(spnHoa.getValue().toString())<0)
+        {
+            spnHoa.setValue(0);           
+            JOptionPane.showMessageDialog(frame, "Giá trị phải lớn hơn 0 và nhỏ hơn 10");
+        }
+    }//GEN-LAST:event_spnHoaStateChanged
+
+    private void spnLyStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_spnLyStateChanged
+        // TODO add your handling code here:
+        if(Float.parseFloat(spnLy.getValue().toString())>10||Float.parseFloat(spnLy.getValue().toString())<0)
+        {
+            spnLy.setValue(0);           
+            JOptionPane.showMessageDialog(frame, "Giá trị phải lớn hơn 0 và nhỏ hơn 10");
+        }
+    }//GEN-LAST:event_spnLyStateChanged
+
+    private void spnAnhStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_spnAnhStateChanged
+        // TODO add your handling code here:
+        if(Float.parseFloat(spnAnh.getValue().toString())>10||Float.parseFloat(spnAnh.getValue().toString())<0)
+        {
+            spnAnh.setValue(0);           
+            JOptionPane.showMessageDialog(frame, "Giá trị phải lớn hơn 0 và nhỏ hơn 10");
+        }
+    }//GEN-LAST:event_spnAnhStateChanged
+
+    private void spnVanStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_spnVanStateChanged
+        // TODO add your handling code here:
+        if(Float.parseFloat(spnVan.getValue().toString())>10||Float.parseFloat(spnVan.getValue().toString())<0)
+        {
+            spnVan.setValue(0);           
+            JOptionPane.showMessageDialog(frame, "Giá trị phải lớn hơn 0 và nhỏ hơn 10");
+        }
+    }//GEN-LAST:event_spnVanStateChanged
+
+    private void spnSinhStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_spnSinhStateChanged
+        // TODO add your handling code here:
+        if(Float.parseFloat(spnSinh.getValue().toString())>10||Float.parseFloat(spnSinh.getValue().toString())<0)
+        {
+            spnSinh.setValue(0);           
+            JOptionPane.showMessageDialog(frame, "Giá trị phải lớn hơn 0 và nhỏ hơn 10");
+        }
+    }//GEN-LAST:event_spnSinhStateChanged
+
+    private void spnSuStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_spnSuStateChanged
+        // TODO add your handling code here:
+         if(Float.parseFloat(spnSu.getValue().toString())>10||Float.parseFloat(spnSu.getValue().toString())<0)
+        {
+            spnSu.setValue(0);           
+            JOptionPane.showMessageDialog(frame, "Giá trị phải lớn hơn 0 và nhỏ hơn 10");
+        }
+    }//GEN-LAST:event_spnSuStateChanged
+
+    private void spnDiaStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_spnDiaStateChanged
+        // TODO add your handling code here:
+         if(Float.parseFloat(spnDia.getValue().toString())>10||Float.parseFloat(spnDia.getValue().toString())<0)
+        {
+            spnDia.setValue(0);           
+            JOptionPane.showMessageDialog(frame, "Giá trị phải lớn hơn 0 và nhỏ hơn 10");
+        }
+    }//GEN-LAST:event_spnDiaStateChanged
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
