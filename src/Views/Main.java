@@ -776,9 +776,9 @@ public class Main extends javax.swing.JFrame {
     private void spnToanStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_spnToanStateChanged
         // TODO add your handling code here:
          if(Float.parseFloat(spnToan.getValue().toString())>10||Float.parseFloat(spnToan.getValue().toString())<0)
-        {
-            spnToan.setValue(0);           
-            JOptionPane.showMessageDialog(frame, "Chỉ nhận giá trị số và Giá trị phải lớn hơn 0 và nhỏ hơn 10");
+        {    
+            spnToan.setValue(0);   
+            JOptionPane.showMessageDialog(frame, "Chỉ nhận giá trị số và Giá trị phải lớn hơn 0 và nhỏ hơn 10");     
         }
        
     }//GEN-LAST:event_spnToanStateChanged
@@ -805,7 +805,7 @@ public class Main extends javax.swing.JFrame {
         // TODO add your handling code here:
         if(Float.parseFloat(spnCoiMo.getValue().toString())>10||Float.parseFloat(spnCoiMo.getValue().toString())<0)
         {
-            spnTuongTac.setValue(0);           
+            spnCoiMo.setValue(0);     
             JOptionPane.showMessageDialog(frame, "Chỉ nhận giá trị nguyên và Giá trị phải lớn hơn 0 và nhỏ hơn 10");
         }
     }//GEN-LAST:event_spnCoiMoStateChanged
